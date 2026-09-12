@@ -11,7 +11,7 @@ export function NewsArticle({ slug }: { slug: string }) {
   if (!item) {
     return (
       <div className="mx-auto max-w-3xl px-4 py-16">
-        <p className="font-extrabold">404</p>
+        <p className="font-semibold">404</p>
         <Link href="/noticias" className="text-brand">
           {c.allNews}
         </Link>
@@ -23,8 +23,8 @@ export function NewsArticle({ slug }: { slug: string }) {
       <Link href="/noticias" className="chrome-label hover:text-brand">
         ← {c.news}
       </Link>
-      <p className="mt-4 text-sm font-bold text-muted">{item.date}</p>
-      <h1 className="mt-2 text-3xl font-black tracking-tight sm:text-4xl">
+      <p className="mt-4 text-sm font-semibold text-muted">{item.date}</p>
+      <h1 className="mt-2 text-3xl font-medium tracking-tight sm:text-4xl">
         {item.title}
       </h1>
       {item.image ? (

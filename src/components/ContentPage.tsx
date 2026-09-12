@@ -40,7 +40,7 @@ export function ContentPage({
         </Link>
       </p>
       <div className="mb-8 flex flex-wrap items-start justify-between gap-4">
-        <h1 className="max-w-3xl text-3xl font-black tracking-tight sm:text-4xl">
+        <h1 className="max-w-3xl text-3xl font-medium tracking-tight sm:text-4xl">
           {title}
         </h1>
         {showProvenance && provenanceItems.length ? (
@@ -65,7 +65,7 @@ export function ContentPage({
       {slug === "contactos" || slug === "contatos" ? (
         <div className="mt-10 card-duo max-w-xl p-6">
           <p className="chrome-label mb-2">{c.contactTitle}</p>
-          <p className="font-bold">Av. Dr. José Afonso Gomes, Apt 62, 8950-275 Castro Marim</p>
+          <p className="font-semibold">Av. Dr. José Afonso Gomes, Apt 62, 8950-275 Castro Marim</p>
           <p className="mt-2 text-muted">
             Tel{" "}
             <a className="text-brand" href="tel:+351281531708">

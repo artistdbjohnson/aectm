@@ -22,7 +22,7 @@ export function ProvenancePanel({
       <button
         type="button"
         onClick={() => setOpen(true)}
-        className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1.5 text-xs font-extrabold uppercase tracking-[1px] text-muted hover:border-brand hover:text-brand"
+        className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1.5 text-xs font-semibold uppercase tracking-[1px] text-muted hover:border-brand hover:text-brand"
       >
         <FileText size={14} /> {c.provenance}
       </button>
@@ -38,7 +38,7 @@ export function ProvenancePanel({
             <div className="flex items-center justify-between border-b border-line px-5 py-4">
               <div>
                 <p className="chrome-label">{c.provenance}</p>
-                <p className="font-extrabold">{title}</p>
+                <p className="font-semibold">{title}</p>
               </div>
               <button
                 type="button"
@@ -57,12 +57,12 @@ export function ProvenancePanel({
                       href={item.href}
                       target="_blank"
                       rel="noreferrer"
-                      className="font-bold text-brand hover:underline"
+                      className="font-semibold text-brand hover:underline"
                     >
                       {item.label}
                     </a>
                   ) : (
-                    <p className="font-bold">{item.label}</p>
+                    <p className="font-semibold">{item.label}</p>
                   )}
                   {item.note ? (
                     <p className="mt-1 text-sm text-muted">{item.note}</p>

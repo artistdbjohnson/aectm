@@ -9,13 +9,13 @@ export function PageBody({ page }: { page: PageData }) {
         {page.blocks.map((b, i) => {
           if (b.tag === "h1" || b.tag === "h2")
             return (
-              <h2 key={i} className="text-xl font-extrabold sm:text-2xl">
+              <h2 key={i} className="text-xl font-semibold sm:text-2xl">
                 {b.text}
               </h2>
             );
           if (b.tag === "h3" || b.tag === "h4")
             return (
-              <h3 key={i} className="text-lg font-extrabold">
+              <h3 key={i} className="text-lg font-semibold">
                 {b.text}
               </h3>
             );

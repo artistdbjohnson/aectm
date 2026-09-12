@@ -15,7 +15,7 @@ export function LanguageSwitch() {
           key={code}
           type="button"
           onClick={() => setLocale(code)}
-          className={`rounded-full px-2.5 py-1 text-[11px] font-extrabold uppercase tracking-[1px] transition ${
+          className={`rounded-full px-2.5 py-1 text-[11px] font-semibold uppercase tracking-[1px] transition ${
             locale === code
               ? "bg-brand text-white"
               : "text-muted hover:text-ink"

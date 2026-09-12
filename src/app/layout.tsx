@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { nunito } from "@/lib/fonts";
+import { inter } from "@/lib/fonts";
 import { Providers } from "@/components/Providers";
 import { Loader } from "@/components/Loader";
 import { Header } from "@/components/Header";
@@ -36,7 +36,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="pt-PT" className={nunito.variable} suppressHydrationWarning>
+    <html lang="pt-PT" className={inter.variable} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeBoot }} />
       </head>
@@ -44,7 +44,7 @@ export default function RootLayout({
         <Providers>
           <Loader />
           <Header />
-          <main>{children}</main>
+          <main id="main">{children}</main>
           <Footer />
         </Providers>
       </body>

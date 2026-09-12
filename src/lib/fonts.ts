@@ -1,8 +1,8 @@
-import { Nunito } from "next/font/google";
+import { Inter } from "next/font/google";
 
-export const nunito = Nunito({
+export const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
-  variable: "--font-nunito",
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-inter",
   display: "swap",
 });

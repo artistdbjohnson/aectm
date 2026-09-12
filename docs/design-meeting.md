@@ -1,47 +1,38 @@
-# AECTM Design Meeting — Factory Transplant
+# AECTM design meeting — chassis freeze
+Date: 2026-09-12  
+Studio lead freeze (Doug standing order: autocomplete, no mid-gate waits)
 
-**Domain:** UI/UX — factory transplant (pitch). Portuguese public school cluster (Castro Marim).  
-**Source:** https://aectm.pt/  
-**Date:** 2026-09-12
+## Craft shelf VOTE — LOCKED
+**Winner: Motionsites `aurora-onboard`**
+- Steal: staggered quiet entry, tonal surfaces, heavy micro-weight
+- Twist: remap signup craft → institutional welcome + chrome (Axiom)
+- Reject: Educrest / Edukate / Kinderly as chassis (academy-SaaS / Hallmark risk)
+- Rejected alternate: `duolingo-styleguide-hero` (too product-SaaS for public school cluster)
 
-## Craft vote
+## Loader — LOCKED (kill WP blue bars)
+Motionsites Loader Animation, school-stripped:
+- Tonal fullscreen
+- Crest / wordmark + thin 000→100 progress
+- No bounce, no marketing word-cycle
+- Reduced-motion = skip / static mark
+- No thinking-orbs as primary preload
+- OriginKit `stagger-text-rise` / `mechanical-flip` OK only as optional secondary chrome if Reed soft-passes; primary = Motionsites quiet loader above
 
-**WINNER: Motionsites `duolingo-styleguide-hero`**
+## Axiom twists — LOCKED (proceed; Reed soft-taste on tip)
+1. **PRIMARY** — Theme/locale as designed chrome: PT default + EN twin + dark|light as one tonal craft cluster in sticky chrome
+2. Logo-collapse + section-aware sticky underline (Avisos / Notícias / Escolas / Documentos / Contactos)
+3. Shared-layout news → reading panel + intent density (Comunidade browse vs Avisos decide)
 
-Rationale (education / onboarding IA fit):
-- Explicit education craft: friendly hierarchy, uppercase section labels, 3D pressed CTAs, rounded cards, clear type scale.
-- Better family/student portal tone than `aurora-onboard` (dark signup / studio registration).
-- Applied richly with **recolor** — not a Duolingo green clone. Algarve institutional palette: sea teal `#0B8FAD`, warm sun `#F5A623`, deep navy `#0F1B2D`, chalk white, soft sand surfaces. Nunito (craft primary) + clean geometric display.
+## Locks (factory hard)
+- PT default + EN twin
+- dark | light
+- After ship → dglxss.com portfolio EN+PT
+- Exact copy transplant; attribution built by dglxss
+- Stack: React + Tailwind + Next.js + GitHub + Vercel
+- Git author: Douglxss Johnson <artistdbjohnson@gmail.com> via env only
+- Repo slug: **aectm** (short)
 
-`aurora-onboard` lost: two-column dark signup IA does not map to school information architecture (news, estrutura, alunos, documentos).
+## News archive depth
+Structural IA pages + Destakes/news index with recent posts from live — not every 2017 archive body.
 
-Framer free education template: not needed — Motionsites won IA fit.
-
-## Loader choice (kill the blue bars)
-
-**OriginKit `stagger-text-rise`** revealing:
-1. “AECTM”
-2. “Agrupamento de Escolas de Castro Marim”
-then quiet dissolve into the app shell.
-
-- School-appropriate quiet luxury; no neon thinking-orbs; no WordPress blue signal-bar splash.
-- `prefers-reduced-motion: reduce` → static mark (logo + wordmark), no stagger.
-- Hallmark microinteraction status recipe consulted; stagger-text-rise preferred for brand reveal ceremony.
-
-## Axiom twists (applied)
-
-1. **Logo-collapse sticky nav** — Hero-scale mark morphs to compact sticky bar on scroll (`layoutId`).
-2. **Section-aware sticky chrome** — Active section underline via IntersectionObserver.
-3. **Theme/locale as designed chrome** — Dark|light + PT|EN as tonal craft controls (not system defaults).
-4. **Provenance panel (optional)** — Sliding sheet on Erasmus+ / guiding docs for project provenance.
-
-## Locks
-
-- PT default + EN twin (chrome + key page titles; body copy stays exact PT from live — do not invent school policy).
-- Stack: React + Tailwind + Next.js + GitHub + Vercel.
-- Attribution: built by dglxss → douglxss.com (localized).
-- `vercel.json` = `{"cleanUrls":true,"trailingSlash":false}` only.
-
-## Imagery
-
-Live site photos / WP media where possible; Firefly only if gaps.
+Chassis UNBLOCKED — build proceeds.

@@ -33,7 +33,7 @@ export function DocLinks({ page }: { page: PageData }) {
               href={d.href}
               target="_blank"
               rel="noreferrer"
-              className="card-duo flex items-center justify-between gap-3 px-4 py-3 text-sm font-bold text-ink hover:text-brand"
+              className="card-duo flex items-center justify-between gap-3 px-4 py-3 text-sm font-semibold text-ink hover:text-brand"
             >
               <span className="line-clamp-2">{d.text || d.href}</span>
               <ExternalLink size={14} className="shrink-0 opacity-50" />
