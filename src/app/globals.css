@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-nunito);
+  --color-brand: #0b8fad;
+  --color-brand-hover: #097a94;
+  --color-brand-shadow: #086f86;
+  --color-sun: #f5a623;
+  --color-navy: #0f1b2d;
+  --color-ink: var(--a-ink);
+  --color-muted: var(--a-muted);
+  --color-bg: var(--a-bg);
+  --color-surface: var(--a-surface);
+  --color-line: var(--a-line);
+  --color-nav: var(--a-nav);
+  --color-danger: #e74c3c;
+}
+
+:root,
+[data-theme="light"] {
+  --a-bg: #f7f5f0;
+  --a-surface: #ffffff;
+  --a-ink: #0f1b2d;
+  --a-muted: #5a6472;
+  --a-line: #e2ddd3;
+  --a-nav: #ffffff;
+  --a-hero: linear-gradient(180deg, #dff4f8 0%, #f7f5f0 72%);
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --a-bg: #0b1220;
+  --a-surface: #121a2b;
+  --a-ink: #f3f1ec;
+  --a-muted: #a8b0bd;
+  --a-line: #243048;
+  --a-nav: #0b1220;
+  --a-hero: linear-gradient(180deg, #0f2a38 0%, #0b1220 70%);
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .no-motion {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+body {
+  font-family: var(--font-nunito), "DIN Round Pro", ui-sans-serif, system-ui,
+    sans-serif;
+  background: var(--a-bg);
+  color: var(--a-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--color-brand);
+  color: white;
+}
+
+.chrome-label {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--a-muted);
+}
+
+.btn-3d {
+  height: 48px;
+  padding: 0 24px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+
+.btn-primary {
+  background: var(--color-brand);
+  color: white;
+  box-shadow: 0 4px 0 var(--color-brand-shadow);
+}
+
+.btn-primary:hover {
+  background: var(--color-brand-hover);
+}
+
+.btn-primary:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 var(--color-brand-shadow);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--color-brand);
+  border: 2px solid var(--a-line);
+  box-shadow: 0 4px 0 var(--a-line);
+}
+
+.btn-secondary:active {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 var(--a-line);
+}
+
+.card-duo {
+  background: var(--a-surface);
+  border: 1px solid var(--a-line);
+  border-radius: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-duo:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(15, 27, 45, 0.08);
+}
+
+.prose-school p {
+  margin-bottom: 0.85rem;
+  line-height: 1.65;
+  color: var(--a-ink);
+}
+
+.prose-school h2,
+.prose-school h3 {
+  font-weight: 800;
+  margin: 1.4rem 0 0.6rem;
+}
+
+.prose-school li {
+  margin-bottom: 0.35rem;
+  line-height: 1.55;
+}
