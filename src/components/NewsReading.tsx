@@ -80,7 +80,7 @@ function ReadingPanel() {
         aria-modal
         aria-label={copy.title}
       >
-        <div className="flex items-start justify-between gap-3 border-b border-line px-5 py-4">
+        <div className="flex items-start justify-between gap-3 border-b border-line px-[var(--space-card-pad-x)] py-[var(--space-row-pad-y)]">
           <div className="min-w-0">
             <p className="text-xs font-semibold text-muted">{active.date}</p>
             <motion.h2 layoutId={`news-title-${active.id}`} className="font-display mt-1 text-xl font-semibold leading-snug">
@@ -97,7 +97,7 @@ function ReadingPanel() {
             <img src={officialUrl(active.image)} alt="" className="h-full w-full object-cover" />
           </motion.div>
         ) : null}
-        <div className="flex-1 overflow-y-auto px-5 py-5">
+        <div className="flex-1 overflow-y-auto px-[var(--space-card-pad-x)] py-[var(--space-card-pad-y)]">
           <p className="whitespace-pre-wrap text-[15px] leading-relaxed text-muted">
             {copy.body || copy.excerpt}
           </p>
@@ -162,7 +162,7 @@ export function NewsCard({ item, dense }: { item: NewsItem; dense?: boolean }) {
             </div>
           )}
         </motion.div>
-        <div className={dense ? "p-3" : "p-4"}>
+        <div className="card-link">
           <p className="text-[11px] font-semibold text-muted">{item.date}</p>
           <motion.h3
             layoutId={`news-title-${item.id}`}
@@ -200,7 +200,7 @@ export function NewsGrid({ query = "" }: { query?: string }) {
 
   if (!list.length) {
     return (
-      <p className="glass rounded-3xl px-5 py-8 text-sm text-muted">
+      <p className="glass glass-card rounded-3xl text-sm text-muted">
         {locale === "pt"
           ? "Nenhuma notícia corresponde a este filtro. O arquivo é o transplantado de aectm.pt."
           : "No news matches this filter. The archive is transplanted from aectm.pt."}
@@ -211,7 +211,7 @@ export function NewsGrid({ query = "" }: { query?: string }) {
   return (
     <motion.div
       layout
-      className={intent === "avisos" ? "grid gap-3 sm:grid-cols-2" : "grid gap-4 sm:grid-cols-2 lg:grid-cols-3"}
+      className={intent === "avisos" ? "grid gap-rows sm:grid-cols-2" : "grid gap-cards sm:grid-cols-2 lg:grid-cols-3"}
     >
       {list.map((n) => (
         <NewsCard key={n.id} item={n} dense={intent === "avisos"} />
@@ -225,9 +225,9 @@ export function HomeNewsBlock() {
   const c = chrome(locale);
   return (
     <section className="page-wrap pb-16" id="noticias">
-      <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
+      <div className="mb-8 flex flex-wrap items-end justify-between gap-4">
         <div>
-          <p className="chrome-label mb-1">{c.highlights}</p>
+          <p className="chrome-label mb-2">{c.highlights}</p>
           <h2 className="font-display text-2xl font-semibold tracking-tight sm:text-3xl">{c.news}</h2>
         </div>
         <div className="flex flex-wrap items-center gap-3">

@@ -41,7 +41,7 @@ export function SearchDialog({
           onClick={onClose}
         >
           <motion.div
-            className="glass-strong w-full max-w-lg rounded-3xl p-5"
+            className="glass-strong glass-card w-full max-w-lg rounded-3xl"
             initial={{ y: 12, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 8, opacity: 0 }}
@@ -61,7 +61,7 @@ export function SearchDialog({
               value={q}
               onChange={(e) => setQ(e.target.value)}
             />
-            <ul className="mt-4 max-h-80 space-y-2 overflow-y-auto">
+            <ul className="card-rows mt-4 max-h-80 overflow-y-auto">
               {q.trim().length >= 2 && results.length === 0 ? (
                 <li className="px-1 py-3 text-sm text-muted">
                   {locale === "pt"
@@ -76,7 +76,7 @@ export function SearchDialog({
                     <Link
                       href={`/noticias/${n.slug}`}
                       onClick={onClose}
-                      className="block rounded-2xl border border-line bg-white/25 px-3 py-2.5 hover:bg-white/45"
+                      className="card-row block rounded-2xl border border-line bg-white/25 hover:bg-white/45"
                     >
                       <p className="text-[11px] font-semibold text-muted">{n.date}</p>
                       <p className="text-sm font-semibold leading-snug">{copy.title}</p>

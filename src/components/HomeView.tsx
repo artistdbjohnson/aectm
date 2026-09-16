@@ -64,12 +64,12 @@ export function HomeView() {
             <motion.p variants={rise} className="mt-4 max-w-md text-[15px] leading-relaxed text-muted">
               {c.tagline}
             </motion.p>
-            <motion.div variants={rise} className="mt-8 space-y-2.5">
+            <motion.div variants={rise} className="card-rows mt-8">
               {phases.map((p, i) => (
                 <Link
                   key={p.href}
                   href={p.href}
-                  className={`flex items-start gap-3 rounded-2xl border px-3.5 py-3 ${
+                  className={`card-row flex items-start gap-3 rounded-2xl border ${
                     i === 0 ? "border-navy bg-navy text-white" : "border-line bg-white/30 text-ink"
                   }`}
                 >
@@ -132,8 +132,8 @@ export function HomeView() {
       <TodayStrip />
 
       <section className="page-wrap py-10" id="quick">
-        <p className="chrome-label mb-4">{c.quickLinks}</p>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <p className="chrome-label mb-5">{c.quickLinks}</p>
+        <div className="grid gap-rows sm:grid-cols-2 lg:grid-cols-3">
           {[
             { href: "/pais", icon: Users, pt: "Pais e E.E.", en: "Parents & guardians" },
             { href: "/alunos", icon: GraduationCap, pt: "Alunos", en: "Students" },
@@ -149,7 +149,7 @@ export function HomeView() {
               viewport={{ once: true }}
               transition={{ delay: 0.04 * i, duration: 0.4 }}
             >
-              <Link href={item.href} className="card-duo flex items-center gap-3 px-4 py-4">
+              <Link href={item.href} className="card-duo card-link flex items-center gap-3">
                 <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-line bg-white/40 text-navy">
                   <item.icon size={17} strokeWidth={1.75} />
                 </span>

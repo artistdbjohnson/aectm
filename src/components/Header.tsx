@@ -67,7 +67,7 @@ export function Header() {
   return (
     <>
       <header className={`sticky top-0 z-40 transition-shadow duration-300 ${scrolled ? "glass-nav shadow-sm" : "glass-nav"}`}>
-        <div className="page-wrap flex items-center justify-between gap-3 py-2.5">
+        <div className="page-wrap flex items-center justify-between gap-3 py-[var(--space-chrome-bar)]">
           <BrandMark collapsed={scrolled} title={c.siteName} subtitle={c.siteFull} />
 
           <nav className="hidden items-center gap-0.5 lg:flex" aria-label={locale === "pt" ? "Principal" : "Primary"}>
@@ -277,14 +277,14 @@ function MobileNode({
       <Link
         href={node.href}
         onClick={close}
-        className="card-duo block px-4 py-3 font-semibold"
+        className="card-duo card-link block font-semibold"
       >
         {labelOf(node, locale)}
       </Link>
     );
   }
   return (
-    <div className="card-duo px-4 py-3">
+    <div className="card-duo card-link">
       <p className="font-semibold">{labelOf(node, locale)}</p>
       <ul className="mt-2 space-y-1.5">
         {(node.children || []).map((child, i) =>

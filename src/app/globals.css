@@ -51,6 +51,27 @@
   color-scheme: dark;
 }
 
+:root {
+  /* Vertical rhythm for glass cards, stacked rows, and chrome back-links.
+     Was: card pad 1.5/2rem; stack 1.5–2rem; rows 0.5rem; back-link 0.5rem. */
+  --space-card-pad-x: 1.625rem;
+  --space-card-pad-y: 1.75rem;
+  --space-card-pad-top: 2rem;
+  --space-card-pad-x-lg: 2.125rem;
+  --space-card-pad-y-lg: 2.25rem;
+  --space-card-pad-top-lg: 2.5rem;
+  --space-card-gap: 2rem;
+  --space-row-gap: 0.75rem;
+  --space-row-pad-x: 1.125rem;
+  --space-row-pad-y: 0.875rem;
+  --space-duo-pad-x: 1.25rem;
+  --space-duo-pad-y: 1.125rem;
+  --space-grid-gap: 0.875rem;
+  --space-chrome-back: 1.5rem;
+  --space-chrome-foot: 1.5rem;
+  --space-chrome-bar: 0.8125rem;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -87,6 +108,16 @@ body {
   letter-spacing: 1.4px;
   text-transform: uppercase;
   color: var(--a-muted);
+}
+
+.chrome-back {
+  display: block;
+  margin-bottom: var(--space-chrome-back);
+}
+
+.chrome-back-foot {
+  margin-top: var(--space-chrome-foot);
+  padding-top: var(--space-chrome-foot);
 }
 
 .glass {
@@ -135,6 +166,43 @@ body {
   border: 1px solid var(--a-line);
 }
 .btn-secondary:hover { background: var(--a-glass-strong); }
+
+.glass-card {
+  padding: var(--space-card-pad-top) var(--space-card-pad-x) var(--space-card-pad-y);
+}
+@media (min-width: 640px) {
+  .glass-card {
+    padding: var(--space-card-pad-top-lg) var(--space-card-pad-x-lg) var(--space-card-pad-y-lg);
+  }
+}
+
+.card-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-card-gap);
+}
+
+.card-rows {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-row-gap);
+}
+
+.card-row {
+  padding: var(--space-row-pad-y) var(--space-row-pad-x);
+}
+
+.card-link {
+  padding: var(--space-duo-pad-y) var(--space-duo-pad-x);
+}
+
+.gap-cards {
+  gap: var(--space-card-gap);
+}
+
+.gap-rows {
+  gap: var(--space-grid-gap);
+}
 
 .card-duo {
   background: var(--a-glass);

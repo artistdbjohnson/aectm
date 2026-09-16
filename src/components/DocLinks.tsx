@@ -19,10 +19,10 @@ export function DocLinks({ page }: { page: PageData }) {
   });
   return (
     <div className="mt-10">
-      <p className="chrome-label mb-3">
+      <p className="chrome-label mb-4">
         {locale === "pt" ? "Ligações e ficheiros" : "Links and files"}
       </p>
-      <ul className="grid gap-2 sm:grid-cols-2">
+      <ul className="grid gap-rows sm:grid-cols-2">
         {unique.slice(0, 48).map((d, i) => {
           const href = officialUrl(d.href);
           const label = locText(d.text || href, locale);
@@ -33,7 +33,7 @@ export function DocLinks({ page }: { page: PageData }) {
                 href={href}
                 target={internal ? undefined : "_blank"}
                 rel={internal ? undefined : "noreferrer"}
-                className="card-duo flex items-center justify-between gap-3 px-4 py-3 text-sm font-semibold text-ink"
+                className="card-duo card-link flex items-center justify-between gap-3 text-sm font-semibold text-ink"
               >
                 <span className="line-clamp-2">{label}</span>
                 <ExternalLink size={14} className="shrink-0 opacity-50" />

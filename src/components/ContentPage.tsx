@@ -34,46 +34,48 @@ export function ContentPage({ slug, page }: { slug: string; page: PageData }) {
 
   return (
     <article className="page-wrap py-10">
-      <p className="chrome-label mb-2">
+      <p className="chrome-label chrome-back">
         <Link href="/" className="hover:text-brand">
           {c.backHome}
         </Link>
       </p>
-      <div className="glass mb-8 rounded-[28px] p-6 sm:p-8">
-        <div className="flex flex-wrap items-start justify-between gap-4">
-          <h1 className="font-display max-w-3xl text-3xl font-semibold tracking-tight sm:text-4xl">
-            {title}
-          </h1>
-          {showProvenance && provenanceItems.length ? (
-            <ProvenancePanel title={title} items={provenanceItems} />
+      <div className="card-stack">
+        <div className="glass glass-card rounded-[28px]">
+          <div className="flex flex-wrap items-start justify-between gap-4">
+            <h1 className="font-display max-w-3xl text-3xl font-semibold tracking-tight sm:text-4xl">
+              {title}
+            </h1>
+            {showProvenance && provenanceItems.length ? (
+              <ProvenancePanel title={title} items={provenanceItems} />
+            ) : null}
+          </div>
+        </div>
+
+        {images[0] ? (
+          <div className="glass overflow-hidden rounded-[28px]">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={images[0].src.startsWith("http") ? officialUrl(images[0].src) : images[0].src}
+              alt={images[0].alt || title}
+              className="max-h-[420px] w-full object-cover"
+            />
+          </div>
+        ) : null}
+
+        <div className="glass glass-card rounded-[28px]">
+          <PageBody page={page} />
+          <DocLinks page={page} />
+          {slug === "giae" ? (
+            <a
+              className="btn-3d btn-primary mt-8 inline-flex"
+              href="https://aectm.giae.pt"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GIAE → aectm.giae.pt
+            </a>
           ) : null}
         </div>
-      </div>
-
-      {images[0] ? (
-        <div className="glass mb-8 overflow-hidden rounded-[28px]">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src={images[0].src.startsWith("http") ? officialUrl(images[0].src) : images[0].src}
-            alt={images[0].alt || title}
-            className="max-h-[420px] w-full object-cover"
-          />
-        </div>
-      ) : null}
-
-      <div className="glass rounded-[28px] p-6 sm:p-8">
-        <PageBody page={page} />
-        <DocLinks page={page} />
-        {slug === "giae" ? (
-          <a
-            className="btn-3d btn-primary mt-8 inline-flex"
-            href="https://aectm.giae.pt"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GIAE → aectm.giae.pt
-          </a>
-        ) : null}
       </div>
     </article>
   );

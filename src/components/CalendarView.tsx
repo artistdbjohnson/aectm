@@ -63,12 +63,13 @@ export function CalendarView() {
 
   return (
     <article className="page-wrap py-10">
-      <p className="chrome-label mb-2">
+      <p className="chrome-label chrome-back">
         <Link href="/" className="hover:text-brand">
           {c.backHome}
         </Link>
       </p>
-      <div className="glass mb-6 rounded-[28px] p-6 sm:p-8">
+      <div className="card-stack">
+      <div className="glass glass-card rounded-[28px]">
         <p className="chrome-label">{CALENDAR_SCOPE[locale]}</p>
         <h1 className="font-display mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">
           {locale === "pt" ? `Calendário Escolar ${SCHOOL_YEAR}` : `School calendar ${SCHOOL_YEAR}`}
@@ -79,8 +80,8 @@ export function CalendarView() {
         <p className="mt-2 text-[12px] text-muted">{CALENDAR_NOTE[locale]}</p>
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
-        <div className="glass rounded-[28px] p-5 sm:p-6">
+      <div className="grid gap-cards lg:grid-cols-[1.15fr_0.85fr]">
+        <div className="glass glass-card rounded-[28px]">
           <div className="mb-4 flex items-center justify-between">
             <button type="button" className="rounded-full border border-line px-3 py-1.5 text-sm font-semibold" onClick={() => shift(-1)}>
               ←
@@ -137,14 +138,14 @@ export function CalendarView() {
           </div>
         </div>
 
-        <div className="space-y-4">
-          <div className="glass rounded-[28px] p-6">
+        <div className="card-stack">
+          <div className="glass glass-card rounded-[28px]">
             <p className="chrome-label">{locale === "pt" ? "Dia selecionado" : "Selected day"}</p>
             <p className="font-display mt-1 text-xl font-semibold">{formatIso(selected, locale)}</p>
             {selectedSpans.length ? (
-              <ul className="mt-4 space-y-2">
+              <ul className="card-rows mt-4">
                 {selectedSpans.map((s) => (
-                  <li key={s.id} className="rounded-2xl border border-line bg-white/30 px-3 py-2 text-sm">
+                  <li key={s.id} className="card-row rounded-2xl border border-line bg-white/30 text-sm">
                     <span className="font-semibold">{s.title[locale]}</span>
                     <span className="mt-0.5 block text-[12px] text-muted">
                       {formatIso(s.start, locale)} — {formatIso(s.end, locale)}
@@ -160,9 +161,9 @@ export function CalendarView() {
               </p>
             )}
           </div>
-          <div className="glass rounded-[28px] p-6">
-            <p className="chrome-label mb-3">{locale === "pt" ? "Todos os períodos" : "All periods"}</p>
-            <ul className="space-y-2">
+          <div className="glass glass-card rounded-[28px]">
+            <p className="chrome-label mb-4">{locale === "pt" ? "Todos os períodos" : "All periods"}</p>
+            <ul className="card-rows">
               {calendarSpans.map((s) => (
                 <PeriodRow key={s.id} span={s} locale={locale} onPick={(iso) => {
                   setSelected(iso);
@@ -174,6 +175,7 @@ export function CalendarView() {
             <p className="mt-4 text-[12px] text-muted">{CALENDAR_SIGNED[locale]}</p>
           </div>
         </div>
+      </div>
       </div>
     </article>
   );
@@ -193,7 +195,7 @@ function PeriodRow({
       <button
         type="button"
         onClick={() => onPick(span.start)}
-        className="w-full rounded-2xl border border-line bg-white/25 px-3 py-2 text-left text-sm hover:bg-white/45"
+        className="card-row w-full rounded-2xl border border-line bg-white/25 text-left text-sm hover:bg-white/45"
       >
         <span className="font-semibold">{span.title[locale]}</span>
         <span className="mt-0.5 block text-[12px] text-muted">

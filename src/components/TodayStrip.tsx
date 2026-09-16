@@ -13,7 +13,7 @@ export function TodayStrip() {
 
   return (
     <section className="page-wrap pt-8" aria-labelledby="hoje-title">
-      <div className="glass flex flex-col gap-4 rounded-[28px] px-5 py-5 sm:flex-row sm:items-center sm:justify-between sm:px-7">
+      <div className="glass glass-card flex flex-col gap-4 rounded-[28px] sm:flex-row sm:items-center sm:justify-between">
         <div>
           <p className="chrome-label" id="hoje-title">
             {locale === "pt" ? "Hoje na escola" : "Today at school"}

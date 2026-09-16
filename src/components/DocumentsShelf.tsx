@@ -34,10 +34,11 @@ export function DocumentsShelf() {
 
   return (
     <article className="page-wrap py-10">
-      <p className="chrome-label mb-2">
+      <p className="chrome-label chrome-back">
         <Link href="/" className="hover:text-brand">{c.backHome}</Link>
       </p>
-      <div className="glass mb-6 rounded-[28px] p-6 sm:p-8">
+      <div className="card-stack">
+      <div className="glass glass-card rounded-[28px]">
         <h1 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">
           {locale === "pt" ? "Prateleira de documentos" : "Document shelf"}
         </h1>
@@ -50,24 +51,24 @@ export function DocumentsShelf() {
         />
       </div>
       {filtered.length === 0 ? (
-        <p className="glass rounded-3xl px-5 py-8 text-sm text-muted">
+        <p className="glass glass-card rounded-3xl text-sm text-muted">
           {locale === "pt"
             ? "Nenhum documento corresponde ao filtro. A prateleira só inclui ligações já publicadas em aectm.pt."
             : "No document matches this filter. The shelf only includes links already published on aectm.pt."}
         </p>
       ) : null}
-      <div className="space-y-8">
+      <div className="card-stack">
         {filtered.map(([group, list]) => (
           <section key={group}>
-            <h2 className="font-display mb-3 text-xl font-semibold">{group}</h2>
-            <ul className="grid gap-2 sm:grid-cols-2">
+            <h2 className="font-display mb-4 text-xl font-semibold">{group}</h2>
+            <ul className="grid gap-rows sm:grid-cols-2">
               {list.map((d) => (
                 <li key={d.href}>
                   <a
                     href={d.href}
                     target="_blank"
                     rel="noreferrer"
-                    className="card-duo flex items-center justify-between gap-3 px-4 py-3 text-sm font-semibold"
+                    className="card-duo card-link flex items-center justify-between gap-3 text-sm font-semibold"
                   >
                     <span className="line-clamp-2">{d.label[locale]}</span>
                     <ExternalLink size={14} className="shrink-0 opacity-50" />
@@ -77,6 +78,7 @@ export function DocumentsShelf() {
             </ul>
           </section>
         ))}
+      </div>
       </div>
     </article>
   );
