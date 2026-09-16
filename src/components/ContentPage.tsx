@@ -34,12 +34,12 @@ export function ContentPage({ slug, page }: { slug: string; page: PageData }) {
 
   return (
     <article className="page-wrap py-10">
-      <p className="chrome-label mb-2">
+      <p className="chrome-label chrome-back">
         <Link href="/" className="hover:text-brand">
           {c.backHome}
         </Link>
       </p>
-      <div className="glass mb-8 rounded-[28px] p-6 sm:p-8">
+      <div className="glass mb-stack rounded-[28px]">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <h1 className="font-display max-w-3xl text-3xl font-semibold tracking-tight sm:text-4xl">
             {title}
@@ -51,7 +51,7 @@ export function ContentPage({ slug, page }: { slug: string; page: PageData }) {
       </div>
 
       {images[0] ? (
-        <div className="glass mb-8 overflow-hidden rounded-[28px]">
+        <div className="glass glass-flush mb-stack overflow-hidden rounded-[28px]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={images[0].src.startsWith("http") ? officialUrl(images[0].src) : images[0].src}
@@ -61,7 +61,7 @@ export function ContentPage({ slug, page }: { slug: string; page: PageData }) {
         </div>
       ) : null}
 
-      <div className="glass rounded-[28px] p-6 sm:p-8">
+      <div className="glass rounded-[28px]">
         <PageBody page={page} />
         <DocLinks page={page} />
         {slug === "giae" ? (

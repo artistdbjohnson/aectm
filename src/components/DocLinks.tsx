@@ -22,7 +22,7 @@ export function DocLinks({ page }: { page: PageData }) {
       <p className="chrome-label mb-3">
         {locale === "pt" ? "Ligações e ficheiros" : "Links and files"}
       </p>
-      <ul className="grid gap-2 sm:grid-cols-2">
+      <ul className="grid gap-row sm:grid-cols-2">
         {unique.slice(0, 48).map((d, i) => {
           const href = officialUrl(d.href);
           const label = locText(d.text || href, locale);

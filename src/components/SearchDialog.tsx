@@ -41,7 +41,7 @@ export function SearchDialog({
           onClick={onClose}
         >
           <motion.div
-            className="glass-strong w-full max-w-lg rounded-3xl p-5"
+            className="glass-strong w-full max-w-lg rounded-3xl px-5 pb-5 pt-6"
             initial={{ y: 12, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 8, opacity: 0 }}
@@ -61,7 +61,7 @@ export function SearchDialog({
               value={q}
               onChange={(e) => setQ(e.target.value)}
             />
-            <ul className="mt-4 max-h-80 space-y-2 overflow-y-auto">
+            <ul className="stack-rows mt-4 max-h-80 overflow-y-auto">
               {q.trim().length >= 2 && results.length === 0 ? (
                 <li className="px-1 py-3 text-sm text-muted">
                   {locale === "pt"

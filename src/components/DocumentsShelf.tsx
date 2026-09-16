@@ -34,10 +34,10 @@ export function DocumentsShelf() {
 
   return (
     <article className="page-wrap py-10">
-      <p className="chrome-label mb-2">
+      <p className="chrome-label chrome-back">
         <Link href="/" className="hover:text-brand">{c.backHome}</Link>
       </p>
-      <div className="glass mb-6 rounded-[28px] p-6 sm:p-8">
+      <div className="glass mb-stack rounded-[28px]">
         <h1 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">
           {locale === "pt" ? "Prateleira de documentos" : "Document shelf"}
         </h1>
@@ -60,7 +60,7 @@ export function DocumentsShelf() {
         {filtered.map(([group, list]) => (
           <section key={group}>
             <h2 className="font-display mb-3 text-xl font-semibold">{group}</h2>
-            <ul className="grid gap-2 sm:grid-cols-2">
+            <ul className="grid gap-row sm:grid-cols-2">
               {list.map((d) => (
                 <li key={d.href}>
                   <a

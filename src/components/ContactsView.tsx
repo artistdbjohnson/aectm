@@ -13,12 +13,12 @@ export function ContactsView() {
 
   return (
     <article className="page-wrap py-10">
-      <p className="chrome-label mb-2">
+      <p className="chrome-label chrome-back">
         <Link href="/" className="hover:text-brand">
           {c.backHome}
         </Link>
       </p>
-      <div className="glass mb-6 rounded-[28px] p-6 sm:p-8">
+      <div className="glass mb-stack rounded-[28px]">
         <h1 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">
           {c.contactTitle}
         </h1>
@@ -29,8 +29,8 @@ export function ContactsView() {
         </p>
       </div>
 
-      <div className="grid gap-4 md:grid-cols-2">
-        <div className="glass rounded-[28px] p-6">
+      <div className="grid gap-stack md:grid-cols-2">
+        <div className="glass rounded-[28px]">
           <p className="inline-flex items-center gap-2 chrome-label">
             <MapPin size={14} /> {locale === "pt" ? "Morada" : "Address"}
           </p>
@@ -53,7 +53,7 @@ export function ContactsView() {
             {locale === "pt" ? "Abrir no mapa" : "Open in maps"}
           </a>
         </div>
-        <div className="glass space-y-4 rounded-[28px] p-6">
+        <div className="glass space-y-4 rounded-[28px]">
           <div>
             <p className="inline-flex items-center gap-2 chrome-label">
               <Phone size={14} /> {c.telLabel}
@@ -83,7 +83,7 @@ export function ContactsView() {
         </div>
       </div>
 
-      <div className="mt-4 grid gap-4 sm:grid-cols-3">
+      <div className="mt-stack grid gap-stack sm:grid-cols-3">
         {[
           { href: "/escolas-do-agrupamento", pt: "Escolas do Agrupamento", en: "Schools in the cluster" },
           { href: "/servicos-de-apoio", pt: "Serviços de Apoio / CPCJ", en: "Support services / CPCJ" },

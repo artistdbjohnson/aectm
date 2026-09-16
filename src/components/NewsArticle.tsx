@@ -13,7 +13,7 @@ export function NewsArticle({ slug }: { slug: string }) {
   if (!item) {
     return (
       <div className="page-wrap py-16">
-        <div className="glass rounded-[28px] p-8">
+        <div className="glass rounded-[28px]">
           <p className="font-semibold">404</p>
           <Link href="/noticias" className="text-brand">
             {c.allNews}
@@ -25,10 +25,10 @@ export function NewsArticle({ slug }: { slug: string }) {
   const copy = newsCopy(item, locale);
   return (
     <article className="page-wrap max-w-3xl py-10">
-      <Link href="/noticias" className="chrome-label hover:text-brand">
+      <Link href="/noticias" className="chrome-label chrome-back hover:text-brand">
         ← {c.news}
       </Link>
-      <div className="glass mt-4 rounded-[28px] p-6 sm:p-8">
+      <div className="glass rounded-[28px]">
         <p className="text-sm font-semibold text-muted">{item.date}</p>
         <h1 className="font-display mt-2 text-3xl font-semibold tracking-tight sm:text-4xl">
           {copy.title}
