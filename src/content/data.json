@@ -170,8 +170,15 @@
         {
           "href": "/metas-curriculares",
           "label": {
-            "pt": "Metas",
-            "en": "Curriculum Goals"
+            "pt": "Aprendizagens Essenciais",
+            "en": "Essential learning"
+          }
+        },
+        {
+          "href": "/resultados-escolares-pautas-de-avaliacao",
+          "label": {
+            "pt": "Resultados / Pautas",
+            "en": "Results / boards"
           }
         }
       ]
@@ -186,8 +193,8 @@
         {
           "href": "/atividades",
           "label": {
-            "pt": "Atividades",
-            "en": "Activities"
+            "pt": "Atividades 2026/2027",
+            "en": "Activities 2026/2027"
           },
           "source": "atividades-2020-2021"
         },
@@ -296,9 +303,9 @@
       "news": "Notícias",
       "highlights": "Destaques",
       "search": "Pesquisar",
-      "searchStub": "Pesquisa em breve",
+      "searchStub": "Pesquisar notícias",
       "readMore": "Ler mais",
-      "builtBy": "Built by",
+      "builtBy": "Criado por",
       "themeLight": "Claro",
       "themeDark": "Escuro",
       "lang": "PT",
@@ -313,7 +320,12 @@
       "allNews": "Todas as notícias",
       "schools": "Escolas",
       "documents": "Documentos",
-      "backHome": "Voltar ao início"
+      "backHome": "Voltar ao início",
+      "telLabel": "Telefone",
+      "faxLabel": "Fax",
+      "calendar": "Calendário",
+      "attribution": "Estudo de design independente. Criado por",
+      "disclaimer": "Não afiliado ao Agrupamento. Conteúdo transplantado de aectm.pt para um estudo de handoff."
     },
     "en": {
       "siteName": "AECTM",
@@ -323,7 +335,7 @@
       "news": "News",
       "highlights": "Highlights",
       "search": "Search",
-      "searchStub": "Search coming soon",
+      "searchStub": "Search news",
       "readMore": "Read more",
       "builtBy": "Built by",
       "themeLight": "Light",
@@ -340,7 +352,12 @@
       "allNews": "All news",
       "schools": "Schools",
       "documents": "Documents",
-      "backHome": "Back to home"
+      "backHome": "Back to home",
+      "telLabel": "Telephone",
+      "faxLabel": "Fax",
+      "calendar": "Calendar",
+      "attribution": "Independent design study. Built by",
+      "disclaimer": "Not affiliated with the school cluster. Content transplanted from aectm.pt for a handoff study."
     }
   },
   "pages": {
@@ -358,7 +375,7 @@
       "links": []
     },
     "atividades-2020-2021": {
-      "title": "Atividades 2023/2024",
+      "title": "Atividades 2026/2027",
       "slug": "atividades-2020-2021",
       "text": "Trabalho do 1ºTurmo de Educação Musical 2021/22",
       "blocks": [
@@ -418,23 +435,23 @@
       ],
       "images": [
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/05/club1-300x225.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/05/club1-300x225.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/05/club2-300x200.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/05/club2-300x200.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/05/club3-300x225.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/05/club3-300x225.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/05/club4-300x200.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/05/club4-300x200.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/05/CLUBEPATR-300x188.png",
+          "src": "https://aectm.pt/wp-content/uploads/2018/05/CLUBEPATR-300x188.png",
           "alt": ""
         }
       ],
@@ -528,19 +545,19 @@
       ],
       "images": [
         {
-          "src": "http://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-09.09.43.png",
+          "src": "https://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-09.09.43.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-09.09.52.png",
+          "src": "https://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-09.09.52.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-09.10.01.png",
+          "src": "https://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-09.10.01.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2022/12/Documento-a4-natal-ilustracao-vermelho-724x1024.png",
+          "src": "https://aectm.pt/wp-content/uploads/2022/12/Documento-a4-natal-ilustracao-vermelho-724x1024.png",
           "alt": ""
         },
         {
@@ -556,135 +573,135 @@
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.04.29-2-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.04.29-2-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.04.36-1-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.04.36-1-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.04.42-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.04.42-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.04.49-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.04.49-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.04.55-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.04.55-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.01-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.01-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.08-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.08-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.14-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.14-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.21-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.21-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.27-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.27-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.35-1-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.35-1-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.43-1-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.43-1-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.50-1-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.50-1-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.57-1-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.05.57-1-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.06.04-1-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.06.04-1-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.06.11-1-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.06.11-1-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.06.18-1-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.06.18-1-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.06.24-1-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.06.24-1-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.06.31-1-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.06.31-1-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.06.38-1-1024x640.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-30-at-18.06.38-1-1024x640.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-16-at-22.09.40-4.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-16-at-22.09.40-4.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/02/Imagem-Seg.-Net-724x1024.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2021/02/Imagem-Seg.-Net-724x1024.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-17-at-13.31.01-1024x757.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-17-at-13.31.01-1024x757.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-17-at-13.31.10-1024x757.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-17-at-13.31.10-1024x757.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-17-at-13.35.26-1024x1024.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-17-at-13.35.26-1024x1024.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-17-at-13.35.36-1016x1024.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-17-at-13.35.36-1016x1024.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-17-at-13.35.56-1018x1024.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-17-at-13.35.56-1018x1024.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-17-at-13.36.09-1022x1024.png",
+          "src": "https://aectm.pt/wp-content/uploads/2021/03/Screenshot-2021-03-17-at-13.36.09-1022x1024.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-18-at-18.02.38-1.png",
+          "src": "https://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-18-at-18.02.38-1.png",
           "alt": ""
         },
         {
-          "src": "blob:http://aectm.pt/03ac015c-a0e3-4cf4-af7e-b7bdf41c9c95",
+          "src": "blob:https://aectm.pt/03ac015c-a0e3-4cf4-af7e-b7bdf41c9c95",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2020/10/Screenshot-2020-10-12-at-14.17.55-2.png",
+          "src": "https://aectm.pt/wp-content/uploads/2020/10/Screenshot-2020-10-12-at-14.17.55-2.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2020/10/Screenshot-2020-10-12-at-14.09.41-1.png",
+          "src": "https://aectm.pt/wp-content/uploads/2020/10/Screenshot-2020-10-12-at-14.09.41-1.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2020/10/Foto-6-scaled.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2020/10/Foto-6-scaled.jpg",
           "alt": ""
         }
       ],
@@ -703,55 +720,55 @@
         },
         {
           "text": "Declaração Autorização do Encarregado de Educação",
-          "href": "http://aectm.pt/wp-content/uploads/2021/03/Declaracao-autorizacao-EE.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2021/03/Declaracao-autorizacao-EE.pdf"
         },
         {
           "text": "Descarregar",
-          "href": "http://aectm.pt/wp-content/uploads/2021/03/Declaracao-autorizacao-EE.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2021/03/Declaracao-autorizacao-EE.pdf"
         },
         {
           "text": "Brochura – Tu e a Internet",
-          "href": "http://aectm.pt/wp-content/uploads/2021/02/brochura_tu_e_a_internet_6-5-2020-1.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2021/02/brochura_tu_e_a_internet_6-5-2020-1.pdf"
         },
         {
           "text": "Descarregar",
-          "href": "http://aectm.pt/wp-content/uploads/2021/02/brochura_tu_e_a_internet_6-5-2020-1.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2021/02/brochura_tu_e_a_internet_6-5-2020-1.pdf"
         },
         {
           "text": "Plano Anual de Atividades 2020/2021",
-          "href": "http://aectm.pt/wp-content/uploads/2020/11/PAA-2021-2.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2020/11/PAA-2021-2.pdf"
         },
         {
           "text": "Descarregar",
-          "href": "http://aectm.pt/wp-content/uploads/2020/11/PAA-2021-2.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2020/11/PAA-2021-2.pdf"
         },
         {
           "text": "Plano de contingência – Biblioteca de Castro Marim",
-          "href": "http://aectm.pt/wp-content/uploads/2020/09/Plano-de-contigencia-da-BE.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2020/09/Plano-de-contigencia-da-BE.pdf"
         },
         {
           "text": "Descarregar",
-          "href": "http://aectm.pt/wp-content/uploads/2020/09/Plano-de-contigencia-da-BE.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2020/09/Plano-de-contigencia-da-BE.pdf"
         },
         {
           "text": "Plano de contingência – Biblioteca da E.B.1 de Altura",
-          "href": "http://aectm.pt/wp-content/uploads/2020/09/Plano-de-Contingencia-da-BEA.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2020/09/Plano-de-Contingencia-da-BEA.pdf"
         },
         {
           "text": "Descarregar",
-          "href": "http://aectm.pt/wp-content/uploads/2020/09/Plano-de-Contingencia-da-BEA.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2020/09/Plano-de-Contingencia-da-BEA.pdf"
         },
         {
           "text": "Concurso Nacional de Leitura",
-          "href": "http://aectm.pt/2020/11/concurso-nacional-de-leitura-2/"
+          "href": "https://aectm.pt/2020/11/concurso-nacional-de-leitura-2/"
         },
         {
           "text": "“Não somos Indiferentes”",
-          "href": "http://aectm.pt/2020/11/nao-somos-indiferentes/"
+          "href": "https://aectm.pt/2020/11/nao-somos-indiferentes/"
         },
         {
           "text": "",
-          "href": "http://aectm.pt/2020/10/este-ano-vamos-descobrir-caminhos-para-a-saude-e-bem-estar/screenshot-2020-10-12-at-14-17-55-3/"
+          "href": "https://aectm.pt/2020/10/este-ano-vamos-descobrir-caminhos-para-a-saude-e-bem-estar/screenshot-2020-10-12-at-14-17-55-3/"
         },
         {
           "text": "https://sites.google.com/mail-rbe.org/aprenderbe-rbe",
@@ -759,7 +776,7 @@
         },
         {
           "text": "",
-          "href": "http://aectm.pt/2020/10/concurso-nacional-de-leitura-14-a-edicao/screenshot-2020-10-12-at-14-09-41-2/"
+          "href": "https://aectm.pt/2020/10/concurso-nacional-de-leitura-14-a-edicao/screenshot-2020-10-12-at-14-09-41-2/"
         },
         {
           "text": "Concurso Nacional de Leitura",
@@ -767,27 +784,27 @@
         },
         {
           "text": "",
-          "href": "http://aectm.pt/biblioteca-escolar-de-castro-marim/foto-6/"
+          "href": "https://aectm.pt/biblioteca-escolar-de-castro-marim/foto-6/"
         },
         {
           "text": "",
-          "href": "http://aectm.pt/biblioteca-escolar-de-castro-marim/foto-3/"
+          "href": "https://aectm.pt/biblioteca-escolar-de-castro-marim/foto-3/"
         },
         {
           "text": "",
-          "href": "http://aectm.pt/biblioteca-escolar-de-castro-marim/foto-5/"
+          "href": "https://aectm.pt/biblioteca-escolar-de-castro-marim/foto-5/"
         },
         {
           "text": "",
-          "href": "http://aectm.pt/biblioteca-escolar-de-castro-marim/foto-4/"
+          "href": "https://aectm.pt/biblioteca-escolar-de-castro-marim/foto-4/"
         },
         {
           "text": "",
-          "href": "http://aectm.pt/biblioteca-escolar-de-castro-marim/foto-2/"
+          "href": "https://aectm.pt/biblioteca-escolar-de-castro-marim/foto-2/"
         },
         {
           "text": "",
-          "href": "http://aectm.pt/biblioteca-escolar-de-castro-marim/foto-1/"
+          "href": "https://aectm.pt/biblioteca-escolar-de-castro-marim/foto-1/"
         }
       ]
     },
@@ -803,19 +820,19 @@
       ],
       "images": [
         {
-          "src": "http://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-09.09.43.png",
+          "src": "https://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-09.09.43.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-09.09.52.png",
+          "src": "https://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-09.09.52.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-09.10.01.png",
+          "src": "https://aectm.pt/wp-content/uploads/2020/11/Screenshot-2020-11-11-at-09.10.01.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2022/12/Documento-a4-natal-ilustracao-vermelho-724x1024.png",
+          "src": "https://aectm.pt/wp-content/uploads/2022/12/Documento-a4-natal-ilustracao-vermelho-724x1024.png",
           "alt": ""
         }
       ],
@@ -1042,7 +1059,7 @@
       "links": [
         {
           "text": "Critérios de Avaliação do Diretor",
-          "href": "http://aectm.pt/wp-content/uploads/2023/07/Criterios_avaliacao-diretorversao-final-23.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2023/07/Criterios_avaliacao-diretorversao-final-23.pdf"
         }
       ]
     },
@@ -1319,115 +1336,115 @@
       "links": [
         {
           "text": "Referencial de avaliação – reformulado e aprovado em 11/09/2024",
-          "href": "http://aectm.pt/wp-content/uploads/2024/09/CASTRO-MARIM_Referencial_avaliacao_V_Final.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/09/CASTRO-MARIM_Referencial_avaliacao_V_Final.pdf"
         },
         {
           "text": "Conhecimento do Mundo",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/criteriosdeavaliacao-C.M.-.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/criteriosdeavaliacao-C.M.-.pdf"
         },
         {
           "text": "Expressão e Conhecimento",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/criteriosdeavaliacao-Expressoes-.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/criteriosdeavaliacao-Expressoes-.pdf"
         },
         {
           "text": "Formação Pessoal e Social",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/criteriosdeavaliacao-FPS.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/criteriosdeavaliacao-FPS.pdf"
         },
         {
           "text": "Português..",
-          "href": "http://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-PORTUGUES-1o-Ciclo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-PORTUGUES-1o-Ciclo.pdf"
         },
         {
           "text": "Matemática..",
-          "href": "http://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-Matematica-1o-Ciclo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-Matematica-1o-Ciclo.pdf"
         },
         {
           "text": "Estudo do Meio..",
-          "href": "http://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-Estudo-do-Meio-1o-Ciclo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-Estudo-do-Meio-1o-Ciclo.pdf"
         },
         {
           "text": "Descobrir e Aprender..",
-          "href": "http://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-DESCOBRIR-E-APRENDER-1o-ciclo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-DESCOBRIR-E-APRENDER-1o-ciclo.pdf"
         },
         {
           "text": "Educação Artística..",
-          "href": "http://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-AETDM-1o-ciclo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-AETDM-1o-ciclo.pdf"
         },
         {
           "text": "Educação Física..",
-          "href": "http://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-EDUC-FISICA-1o-Ciclo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-EDUC-FISICA-1o-Ciclo.pdf"
         },
         {
           "text": "Inglês",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/Ingles_1Ciclo_Criterios-de-Avaliacao-das-Linguas-Estrangeiras-2025-26-ultimo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/Ingles_1Ciclo_Criterios-de-Avaliacao-das-Linguas-Estrangeiras-2025-26-ultimo.pdf"
         },
         {
           "text": "Cidadania e Desenvolvimento..",
-          "href": "http://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-CIDADAN-E-DESENVOLV-1oCiclo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/10/Criterios-Avaliacao-CIDADAN-E-DESENVOLV-1oCiclo.pdf"
         },
         {
           "text": "Português",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/Criterios-de-avaliacao-Portugues-2o-ciclo-2025-2026.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/Criterios-de-avaliacao-Portugues-2o-ciclo-2025-2026.pdf"
         },
         {
           "text": "Matemática",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/CA-Matematica_25-26.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/CA-Matematica_25-26.pdf"
         },
         {
           "text": "Ciências Naturais",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/CA-Ciencias-Naturais_25-26.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/CA-Ciencias-Naturais_25-26.pdf"
         },
         {
           "text": "Línguas Estrangeiras",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/Criterios-de-Avaliacao-das-Linguas-Estrangeiras-2025-26.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/Criterios-de-Avaliacao-das-Linguas-Estrangeiras-2025-26.pdf"
         },
         {
           "text": "História e Geografia de Portugal",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/Criterios-de-avaliacao-HGP-e-Historia.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/Criterios-de-avaliacao-HGP-e-Historia.pdf"
         },
         {
           "text": "Educação Visual",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/CA_EV_2e3ciclos.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/CA_EV_2e3ciclos.pdf"
         },
         {
           "text": "Educação Tecnológica",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/CA_ET_2ciclo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/CA_ET_2ciclo.pdf"
         },
         {
           "text": "Educação Física",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/CA_EF_2e3ciclo_2025_2026s.docx.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/CA_EF_2e3ciclo_2025_2026s.docx.pdf"
         },
         {
           "text": "Educação Musical",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/CA_EM_2e3ciclos25.26.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/CA_EM_2e3ciclos25.26.pdf"
         },
         {
           "text": "Tecnologias de Informação e Comunicação",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/CA-TIC_25-26.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/CA-TIC_25-26.pdf"
         },
         {
           "text": "Descobrir e Aprender",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/Criterios-Aval-DA-2025-26.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/Criterios-Aval-DA-2025-26.pdf"
         },
         {
           "text": "Cidadania e Desenvolvimento",
-          "href": "http://aectm.pt/wp-content/uploads/2024/10/Criterios-avaliacao-2o-3o-ciclo-CD-2425-ATUAL.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/10/Criterios-avaliacao-2o-3o-ciclo-CD-2425-ATUAL.pdf"
         },
         {
           "text": "Português",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/CA-3ciclo-Portugues-ciclo-25-26-criterios-de-av.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/CA-3ciclo-Portugues-ciclo-25-26-criterios-de-av.pdf"
         },
         {
           "text": "Físico-Química",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/CA-Fisico-Quimica_25-26.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/CA-Fisico-Quimica_25-26.pdf"
         },
         {
           "text": "Geografia",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/Criterios-de-avaliacao-3o-ciclo_geo_2025_26.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/Criterios-de-avaliacao-3o-ciclo_geo_2025_26.pdf"
         },
         {
           "text": "Educação Física",
-          "href": "http://aectm.pt/wp-content/uploads/2023/03/CA-3ciclo-9ano-PIEF-EF-22-23-1.docx"
+          "href": "https://aectm.pt/wp-content/uploads/2023/03/CA-3ciclo-9ano-PIEF-EF-22-23-1.docx"
         }
       ]
     },
@@ -1565,22 +1582,22 @@
       ],
       "images": [
         {
-          "src": "http://aectm.pt/wp-content/uploads/2024/09/M10_1.png",
+          "src": "https://aectm.pt/wp-content/uploads/2024/09/M10_1.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2024/09/Faltasdealunos.png",
+          "src": "https://aectm.pt/wp-content/uploads/2024/09/Faltasdealunos.png",
           "alt": ""
         }
       ],
       "links": [
         {
           "text": "",
-          "href": "http://aectm.pt/wp-content/uploads/2024/09/M.10.01_Autorizacao-de-Saida_Form.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/09/M.10.01_Autorizacao-de-Saida_Form.pdf"
         },
         {
           "text": "",
-          "href": "http://aectm.pt/wp-content/uploads/2024/09/Just_faltas_alunos_form.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/09/Just_faltas_alunos_form.pdf"
         }
       ]
     },
@@ -1710,59 +1727,59 @@
       "links": [
         {
           "text": "PROJETO EDUCATIVO 2024-27",
-          "href": "http://aectm.pt/wp-content/uploads/2024/02/Projeto-Educativo-24-27-Final.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/02/Projeto-Educativo-24-27-Final.pdf"
         },
         {
           "text": "REGULAMENTO INTERNO 2024-2027",
-          "href": "http://aectm.pt/wp-content/uploads/2024/01/Reg_interno2024.27.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/01/Reg_interno2024.27.pdf"
         },
         {
           "text": "Adenda – CONDUTA E UTILIZAÇÃO DE DISPOSITIVOS MÓVEIS",
-          "href": "http://aectm.pt/wp-content/uploads/2026/01/Adenda_Reg_interno_Telemoveis.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/01/Adenda_Reg_interno_Telemoveis.pdf"
         },
         {
           "text": "Adenda –",
-          "href": "http://aectm.pt/wp-content/uploads/2026/07/Adenda_Regulamento_Interno_Assinatura_Eletronica.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/07/Adenda_Regulamento_Interno_Assinatura_Eletronica.pdf"
         },
         {
           "text": "ASSINATURA ELETRÓNICA",
-          "href": "http://aectm.pt/wp-content/uploads/2026/07/Adenda_Regulamento_Interno_Assinatura_Eletronica.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/07/Adenda_Regulamento_Interno_Assinatura_Eletronica.pdf"
         },
         {
           "text": "PLANO ANUAL DE ATIVIDADES 2025/26",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/Plano-Anual-de-Atividades-2025-26.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/Plano-Anual-de-Atividades-2025-26.pdf"
         },
         {
           "text": "Relatório Final de Execução do Plano Anual de Atividades 23/24",
-          "href": "http://aectm.pt/wp-content/uploads/2024/08/Relatorio-do-PAA-2023-2024-Ultimo-14-7-2024.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/08/Relatorio-do-PAA-2023-2024-Ultimo-14-7-2024.pdf"
         },
         {
           "text": "ORGANIZAÇÃO DO ANO LETIVO 2025-26",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/Organizacao-do-Ano-Letivo-2025-26.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/Organizacao-do-Ano-Letivo-2025-26.pdf"
         },
         {
           "text": "Regra do uso dos Telemóveis no âmbito escolar – Pela entrada da adenda do regulamento interno fica revogado a 7 de janeiro de 2026",
-          "href": "http://aectm.pt/wp-content/uploads/2025/03/Regras-para-o-Uso-de-Telemoveis-no-Ambito-Escolar.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/03/Regras-para-o-Uso-de-Telemoveis-no-Ambito-Escolar.pdf"
         },
         {
           "text": "Regulamento Interno das Atividades de Enriquecimento Curricular – 1º Ciclo do Ensino Básico",
-          "href": "http://aectm.pt/wp-content/uploads/2026/03/Regulamento-Interno-AEC´S-v2.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/03/Regulamento-Interno-AEC´S-v2.pdf"
         },
         {
           "text": "Código de Conduta",
-          "href": "http://aectm.pt/wp-content/uploads/2025/02/Codigo-de-Conduta.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/02/Codigo-de-Conduta.pdf"
         },
         {
           "text": "Sistema de Controle Interno",
-          "href": "http://aectm.pt/wp-content/uploads/2025/02/Sistema-de-controle-interno.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/02/Sistema-de-controle-interno.pdf"
         },
         {
           "text": "Plano de Prevenção de Riscos de Corrupção e Infrações Conexas",
-          "href": "http://aectm.pt/wp-content/uploads/2025/02/PLANO-DE-PREVENCAO-DE-RISCOS-DE-CORRUPCAO-E-INFRACOES-CONEXAS.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/02/PLANO-DE-PREVENCAO-DE-RISCOS-DE-CORRUPCAO-E-INFRACOES-CONEXAS.pdf"
         },
         {
           "text": "Relatório final de Autoavaliação – Fevereiro de 2024",
-          "href": "http://aectm.pt/wp-content/uploads/2024/08/FARO_Castro_Marim_AEE_AE_Castro_Marim_2023_2024_R_H.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/08/FARO_Castro_Marim_AEE_AE_Castro_Marim_2023_2024_R_H.pdf"
         },
         {
           "text": "RELATÓRIO DE AUTOAVALIAÇÃO 2023/24",
@@ -1880,95 +1897,95 @@
       "links": [
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/22-a-26-jun.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/22-a-26-jun.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/15-a-19-jun.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/15-a-19-jun.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/08-a-13-jun.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/08-a-13-jun.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/01-a-05-jun.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/01-a-05-jun.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/25-a-29-maio.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/25-a-29-maio.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/18-a-22-maio.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/18-a-22-maio.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/11-a-15-maio.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/11-a-15-maio.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/04-a-08-maio.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/04-a-08-maio.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/04/27-a-30-abr.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/04/27-a-30-abr.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/04/20-a-24-abr.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/04/20-a-24-abr.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/04/13-a-17-abr.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/04/13-a-17-abr.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/23-a-27-mar.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/23-a-27-mar.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/16-a-20-mar.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/16-a-20-mar.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/09-a-13-mar.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/09-a-13-mar.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/02-a-06-mar.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/02-a-06-mar.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/23-fev-a-01-mar.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/23-fev-a-01-mar.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/16-a-20-fev.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/16-a-20-fev.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/09-a-15-fev.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/09-a-15-fev.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/02-a-06-fev.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/02-a-06-fev.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/01/26-a-30-jan.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/01/26-a-30-jan.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/01/19-a-25-jan.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/01/19-a-25-jan.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/01/12-a-18-jan.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/01/12-a-18-jan.pdf"
         },
         {
           "text": "Ementa Escolar",
-          "href": "http://aectm.pt/wp-content/uploads/2026/01/05-a-09.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/01/05-a-09.pdf"
         }
       ]
     },
@@ -1988,23 +2005,23 @@
       ],
       "images": [
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/05/eb23-300x98.png",
+          "src": "/media/schools/eb23-300x98.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/05/ebcm.png",
+          "src": "/media/schools/ebcm.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/05/jicm.png",
+          "src": "/media/schools/jicm.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/05/eb1alt.png",
+          "src": "/media/schools/eb1alt.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/05/eb1odeleite.png",
+          "src": "/media/schools/eb1odeleite.png",
           "alt": ""
         }
       ],
@@ -2366,15 +2383,15 @@
       "links": [
         {
           "text": "Despacho n.º 14526/2024",
-          "href": "http://aectm.pt/wp-content/uploads/2024/12/20241210143601779.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/12/20241210143601779.pdf"
         },
         {
           "text": "Resolução da Assembleia da República n.º 86/2024",
-          "href": "http://aectm.pt/wp-content/uploads/2024/12/resolucao-86-2024.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/12/resolucao-86-2024.pdf"
         },
         {
           "text": "Despacho n.º 12293/2024",
-          "href": "http://aectm.pt/wp-content/uploads/2024/12/despacho-12293-2024.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/12/despacho-12293-2024.pdf"
         },
         {
           "text": "Resolução do Conselho de Ministros n.º 140/2024",
@@ -2478,7 +2495,7 @@
         },
         {
           "text": "DELIBERAÇÃO N.º 1495/2016",
-          "href": "http://aectm.pt/carregado/legislacao/DEL_1495_2016_dados_alunos_Internet.pdf"
+          "href": "https://aectm.pt/carregado/legislacao/DEL_1495_2016_dados_alunos_Internet.pdf"
         },
         {
           "text": "Despacho n.º 8297-B/2019",
@@ -2728,58 +2745,70 @@
       "links": [
         {
           "text": "1º Ciclo",
-          "href": "http://aectm.pt/wp-content/uploads/2026/09/Manuais-escolares-1o-ciclo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/09/Manuais-escolares-1o-ciclo.pdf"
         },
         {
           "text": "5º Ano",
-          "href": "http://aectm.pt/wp-content/uploads/2026/09/Manuais-Escolares-5o-Ano.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/09/Manuais-Escolares-5o-Ano.pdf"
         },
         {
           "text": "6º Ano",
-          "href": "http://aectm.pt/wp-content/uploads/2026/09/Manuais-escolares-6o-Ano.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/09/Manuais-escolares-6o-Ano.pdf"
         },
         {
           "text": "7ºAno",
-          "href": "http://aectm.pt/wp-content/uploads/2026/09/Manuais-escolares-7o-Ano.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/09/Manuais-escolares-7o-Ano.pdf"
         },
         {
           "text": "8º Ano",
-          "href": "http://aectm.pt/wp-content/uploads/2026/09/Manuais-escolares-8o-Ano.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/09/Manuais-escolares-8o-Ano.pdf"
         },
         {
           "text": "9º Ano",
-          "href": "http://aectm.pt/wp-content/uploads/2026/09/Manuais-escolares-9o-Ano.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/09/Manuais-escolares-9o-Ano.pdf"
         }
       ]
     },
     "metas-curriculares": {
-      "title": "Metas Curriculares",
+      "title": "Aprendizagens Essenciais",
       "slug": "metas-curriculares",
-      "text": "As metas curriculares do Ensino Básico encontram-se publicadas na página da Direção-Geral de Educação.\nhttp://www.dge.mec.pt/programas-e-metas-curriculares-0",
+      "text": "As metas curriculares do Ensino Básico encontram-se publicadas na página da Direção-Geral de Educação.\nhttps://www.dge.mec.pt/programas-e-metas-curriculares-0",
       "blocks": [
         {
           "tag": "p",
-          "text": "As metas curriculares do Ensino Básico encontram-se publicadas na página da Direção-Geral de Educação."
+          "text": "As Aprendizagens Essenciais e o Perfil dos Alunos à Saída da Escolaridade Obrigatória estão publicados na página da Direção-Geral de Educação."
         },
         {
           "tag": "p",
-          "text": "http://www.dge.mec.pt/programas-e-metas-curriculares-0"
+          "text": "Perfil dos Alunos à Saída da Escolaridade Obrigatória"
+        },
+        {
+          "tag": "p",
+          "text": "Aprendizagens Essenciais — Ensino Básico"
         }
       ],
       "images": [
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/05/metas-300x182.png",
+          "src": "https://aectm.pt/wp-content/uploads/2018/05/metas-300x182.png",
           "alt": ""
         }
       ],
       "links": [
         {
-          "text": "http://www.dge.mec.pt/programas-e-metas-curriculares-0",
-          "href": "http://www.dge.mec.pt/programas-e-metas-curriculares-0"
+          "text": "https://www.dge.mec.pt/programas-e-metas-curriculares-0",
+          "href": "https://www.dge.mec.pt/programas-e-metas-curriculares-0"
         },
         {
           "text": "",
-          "href": "http://www.dge.mec.pt/programas-e-metas-curriculares-0"
+          "href": "https://www.dge.mec.pt/programas-e-metas-curriculares-0"
+        },
+        {
+          "text": "Perfil dos Alunos à Saída da Escolaridade Obrigatória",
+          "href": "https://www.dge.mec.pt/sites/default/files/Curriculo/Projeto_Autonomia_e_Flexibilidade/perfil_dos_alunos.pdf"
+        },
+        {
+          "text": "Aprendizagens Essenciais — Ensino Básico",
+          "href": "https://www.dge.mec.pt/aprendizagens-essenciais-ensino-basico"
         }
       ]
     },
@@ -3049,247 +3078,247 @@
       "links": [
         {
           "text": "Lista Provisória de candidatos admitidos/excluídos",
-          "href": "http://aectm.pt/wp-content/uploads/2026/07/Lista-prov-psic-1.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/07/Lista-prov-psic-1.pdf"
         },
         {
           "text": "Lista Definitiva de candidatos admitidos/excluídos",
-          "href": "http://aectm.pt/wp-content/uploads/2026/07/Lista-definitiva.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/07/Lista-definitiva.pdf"
         },
         {
           "text": "Lista de candidatos ordenada alfabeticamente – Prova de Conhecimentos",
-          "href": "http://aectm.pt/wp-content/uploads/2026/07/Prova-conhecimentos.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/07/Prova-conhecimentos.pdf"
         },
         {
           "text": "Calendarização das Entrevistas",
-          "href": "http://aectm.pt/wp-content/uploads/2026/07/Calendarizacao.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/07/Calendarizacao.pdf"
         },
         {
           "text": "Segunda Calendarização das Entrevistas",
-          "href": "http://aectm.pt/wp-content/uploads/2026/07/psicologo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/07/psicologo.pdf"
         },
         {
           "text": "Projeto de Lista de Ordenação Final",
-          "href": "http://aectm.pt/wp-content/uploads/2026/08/PROJETO-DE-LISTA-.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/08/PROJETO-DE-LISTA-.pdf"
         },
         {
           "text": "– Aviso de abertura;",
-          "href": "http://aectm.pt/wp-content/uploads/2026/06/Aviso-DE-ABERTURA-Castro-Marim-2_signed.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/06/Aviso-DE-ABERTURA-Castro-Marim-2_signed.pdf"
         },
         {
           "text": "– Critérios de Apreciação da Candidatura;",
-          "href": "http://aectm.pt/wp-content/uploads/2026/06/Parametros-e-criterios-para-apreciacao-das-candidaturas.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/06/Parametros-e-criterios-para-apreciacao-das-candidaturas.pdf"
         },
         {
           "text": "– Regulamento de eleição do Diretor;",
-          "href": "http://aectm.pt/wp-content/uploads/2026/06/Regulamento-para-eleicao-do-diretor_signed-1.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/06/Regulamento-para-eleicao-do-diretor_signed-1.pdf"
         },
         {
           "text": "– Requerimento;",
-          "href": "http://aectm.pt/wp-content/uploads/2026/06/Requerimento.docx"
+          "href": "https://aectm.pt/wp-content/uploads/2026/06/Requerimento.docx"
         },
         {
           "text": "– Anexo III.",
-          "href": "http://aectm.pt/wp-content/uploads/2026/06/Anexo-III-1.docx"
+          "href": "https://aectm.pt/wp-content/uploads/2026/06/Anexo-III-1.docx"
         },
         {
           "text": "Ata nº 1 do Júri",
-          "href": "http://aectm.pt/wp-content/uploads/2026/06/ata-psicologo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/06/ata-psicologo.pdf"
         },
         {
           "text": "Aviso de Procedimento Concursal",
-          "href": "http://aectm.pt/wp-content/uploads/2026/06/Aviso_Procedimento-concursal-TS_1_signed.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/06/Aviso_Procedimento-concursal-TS_1_signed.pdf"
         },
         {
           "text": "Bibliografia de todas as provas",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/Bibliografia_todas-as-provas-.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/Bibliografia_todas-as-provas-.pdf"
         },
         {
           "text": "Formulário de audiência dos interessados",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/Formulario-de-audiencia-de-interessados.docx"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/Formulario-de-audiencia-de-interessados.docx"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 horas – horário 108",
-          "href": "http://aectm.pt/wp-content/uploads/2026/06/horario-108.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/06/horario-108.pdf"
         },
         {
           "text": "Concurso de terapia da Fala – 10 horas – horário 105",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/HORARIO-105.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/HORARIO-105.pdf"
         },
         {
           "text": "Concurso de terapeuta da Fala – 10 horas – horário 101",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/horario-101.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/horario-101.pdf"
         },
         {
           "text": "Concurso de terapeuta da Fala – 10 horas – horário 99",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/horario-99-.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/horario-99-.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala -10 Horas  -Horário 94",
-          "href": "http://aectm.pt/wp-content/uploads/2026/05/Contratacao-Escola.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/05/Contratacao-Escola.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala -10 Horas – Horário 90",
-          "href": "http://aectm.pt/wp-content/uploads/2026/04/concurso_27-04.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/04/concurso_27-04.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 88",
-          "href": "http://aectm.pt/wp-content/uploads/2026/04/Hor-88.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/04/Hor-88.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 84",
-          "href": "http://aectm.pt/wp-content/uploads/2026/04/Hor-84.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/04/Hor-84.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 80",
-          "href": "http://aectm.pt/wp-content/uploads/2026/03/Hor-80.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/03/Hor-80.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 77",
-          "href": "http://aectm.pt/wp-content/uploads/2026/03/Hor-77.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/03/Hor-77.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 76",
-          "href": "http://aectm.pt/wp-content/uploads/2026/03/Hor-76.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/03/Hor-76.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 73",
-          "href": "http://aectm.pt/wp-content/uploads/2026/03/Hor-73.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/03/Hor-73.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 67",
-          "href": "http://aectm.pt/wp-content/uploads/2026/03/HORARIO-67-TERAPEUTA-DA-FALA.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/03/HORARIO-67-TERAPEUTA-DA-FALA.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 63",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/Hor-63.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/Hor-63.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 57",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/Hor-57.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/Hor-57.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 49",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/Hor-49.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/Hor-49.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 47",
-          "href": "http://aectm.pt/wp-content/uploads/2026/01/Hor-47.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/01/Hor-47.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 46",
-          "href": "http://aectm.pt/wp-content/uploads/2026/01/Hor-46.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/01/Hor-46.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 43",
-          "href": "http://aectm.pt/wp-content/uploads/2026/01/Hor-43.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/01/Hor-43.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 42",
-          "href": "http://aectm.pt/wp-content/uploads/2026/01/Hor-42.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/01/Hor-42.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 38",
-          "href": "http://aectm.pt/wp-content/uploads/2025/12/Hor-38.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/12/Hor-38.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 36",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/Hor-36.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/Hor-36.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 35",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/Hor-35.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/Hor-35.pdf"
         },
         {
           "text": "Concurso de Mediador Linguístico – 18 Horas –  Horário 28",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/convocatoria-h28.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/convocatoria-h28.pdf"
         },
         {
           "text": "– Entrevista",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/convocatoria-h28.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/convocatoria-h28.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 32",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/Hor-32.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/Hor-32.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 31",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/Hor-31.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/Hor-31.pdf"
         },
         {
           "text": "Concurso de Mediador Linguístico – 18 Horas –  Horário 28",
-          "href": "http://aectm.pt/wp-content/uploads/2025/11/Mediador.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/11/Mediador.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 27",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/20251028130245753.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/20251028130245753.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 23",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/20251028130245753.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/20251028130245753.pdf"
         },
         {
           "text": "Concurso de Técnico de Intervenção Local – 35 Horas –  Horário 19 – Classificação final",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/TIL.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/TIL.pdf"
         },
         {
           "text": "Concurso de Psicólogo – 17 Horas –  Horário 7 – Classificação final",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/horario-17-classificacao-final.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/horario-17-classificacao-final.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 22",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/terapeuta-da-fala.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/terapeuta-da-fala.pdf"
         },
         {
           "text": "Concurso de Técnico de Intervenção Local – 35 Horas –  Horário 19 – Entrevista",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/entrevista-h-19.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/entrevista-h-19.pdf"
         },
         {
           "text": "Concurso de Psicólogo – 17 Horas –  Horário 7 – Entrevista",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/entrevista-h-7.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/entrevista-h-7.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 20",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/Hor-20.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/Hor-20.pdf"
         },
         {
           "text": "Concurso de Psicólogo – 17 Horas –  Horário 7",
-          "href": "http://aectm.pt/wp-content/uploads/2025/09/Hor-7.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/09/Hor-7.pdf"
         },
         {
           "text": "Concurso de Técnico de Intervenção Local – 35 Horas –  Horário 19",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/Hor-19.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/Hor-19.pdf"
         },
         {
           "text": "Concurso de Mediador Linguístico – 18 Horas –  Horário 15- Classificação Final",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/grelha-final.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/grelha-final.pdf"
         },
         {
           "text": "Concurso de Mediador Linguístico -Horário 15 – Entrevista",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/20251001141722466.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/20251001141722466.pdf"
         },
         {
           "text": "Concurso de Técnicos Especializados – Horário 14 – Entrevista",
-          "href": "http://aectm.pt/wp-content/uploads/2025/10/Hor-14-Entrevista.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/10/Hor-14-Entrevista.pdf"
         },
         {
           "text": "Concurso de Mediador Linguístico – 18 Horas –  Horário 10 – Convocatória Entrevista",
-          "href": "http://aectm.pt/wp-content/uploads/2025/09/convocatoria-horario-10.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/09/convocatoria-horario-10.pdf"
         },
         {
           "text": "Concurso de Mediador Linguístico – 18 Horas –  Horário 10",
-          "href": "http://aectm.pt/wp-content/uploads/2025/09/Hor-10.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/09/Hor-10.pdf"
         },
         {
           "text": "Concurso de Psicólogo – 10 Horas –  Horário 9",
-          "href": "http://aectm.pt/wp-content/uploads/2025/09/Hor-9.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/09/Hor-9.pdf"
         },
         {
           "text": "Concurso de Terapeuta da Fala – 10 Horas –  Horário 8",
-          "href": "http://aectm.pt/wp-content/uploads/2025/09/Hor-8.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/09/Hor-8.pdf"
         },
         {
           "text": "Concurso de Terapeuta Ocupacional – 18 Horas –  Horário 5",
-          "href": "http://aectm.pt/wp-content/uploads/2025/09/Hor-5.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2025/09/Hor-5.pdf"
         }
       ]
     },
@@ -3346,35 +3375,35 @@
       ],
       "images": [
         {
-          "src": "http://aectm.pt/wp-content/uploads/2023/01/PADDE-1.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2023/01/PADDE-1.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2023/01/Screenshot-2023-01-09-at-15.12.46-1024x570.png",
+          "src": "https://aectm.pt/wp-content/uploads/2023/01/Screenshot-2023-01-09-at-15.12.46-1024x570.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/elementor/thumbs/Screenshot-2023-01-09-at-15.24.52-1-q0ey86jydhrldxkj4qtecejhva74n49ti45i5b4ax6.png",
+          "src": "https://aectm.pt/wp-content/uploads/elementor/thumbs/Screenshot-2023-01-09-at-15.24.52-1-q0ey86jydhrldxkj4qtecejhva74n49ti45i5b4ax6.png",
           "alt": "Screenshot 2023-01-09 at 15.24.52"
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2023/01/Screenshot-2023-01-09-at-16.24.26-223x300.png",
+          "src": "https://aectm.pt/wp-content/uploads/2023/01/Screenshot-2023-01-09-at-16.24.26-223x300.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2023/01/Screenshot-2023-01-09-at-17.02.44-479x1024.png",
+          "src": "https://aectm.pt/wp-content/uploads/2023/01/Screenshot-2023-01-09-at-17.02.44-479x1024.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2025/01/Captura-de-ecra-2025-01-29-as-11.10.01.png",
+          "src": "https://aectm.pt/wp-content/uploads/2025/01/Captura-de-ecra-2025-01-29-as-11.10.01.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2025/01/Captura-de-ecra-2025-01-29-as-11.56.28.png",
+          "src": "https://aectm.pt/wp-content/uploads/2025/01/Captura-de-ecra-2025-01-29-as-11.56.28.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2025/01/Captura-de-ecra-2025-01-29-as-11.56.20.png",
+          "src": "https://aectm.pt/wp-content/uploads/2025/01/Captura-de-ecra-2025-01-29-as-11.56.20.png",
           "alt": ""
         }
       ],
@@ -3385,11 +3414,11 @@
         },
         {
           "text": "",
-          "href": "http://aectm.pt/wp-content/uploads/2023/01/Screenshot-2023-01-09-at-15.24.52-1.png"
+          "href": "https://aectm.pt/wp-content/uploads/2023/01/Screenshot-2023-01-09-at-15.24.52-1.png"
         },
         {
           "text": "PADDE 2025-26",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/PADDE-2025-26.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/PADDE-2025-26.pdf"
         },
         {
           "text": "https://aectm.pt/wp-content/uploads/2023/01/Divulgacao-PADDE-1.mp4",
@@ -3401,11 +3430,11 @@
         },
         {
           "text": "",
-          "href": "http://aectm.pt/wp-content/uploads/2023/01/Envolvimento-Profissional-Final.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2023/01/Envolvimento-Profissional-Final.pdf"
         },
         {
           "text": "Relatório da Monitorização do Padde 21-23",
-          "href": "http://aectm.pt/wp-content/uploads/2024/10/RESULTADOS-DA-MONITORIZACAO-DO-PADDE-2021-23.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/10/RESULTADOS-DA-MONITORIZACAO-DO-PADDE-2021-23.pdf"
         },
         {
           "text": "",
@@ -3443,7 +3472,7 @@
       "links": [
         {
           "text": "PROJETO CULTURAL DE ESCOLA",
-          "href": "http://aectm.pt/wp-content/uploads/2026/02/PROJETO-CULTURAL-DE-ESCOLA.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2026/02/PROJETO-CULTURAL-DE-ESCOLA.pdf"
         }
       ]
     },
@@ -3505,7 +3534,7 @@
       "links": [
         {
           "text": "aectm.pt",
-          "href": "http://aectm.pt"
+          "href": "https://aectm.pt"
         }
       ]
     },
@@ -3545,55 +3574,55 @@
       ],
       "images": [
         {
-          "src": "http://aectm.pt/wp-content/uploads/2019/12/88x31.png",
+          "src": "https://aectm.pt/wp-content/uploads/2019/12/88x31.png",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/07/livro10-300x225.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/07/livro10-300x225.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/07/livro9-225x300.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/07/livro9-225x300.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/07/livro8-225x300.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/07/livro8-225x300.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/07/livro7-225x300.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/07/livro7-225x300.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/07/livro6-225x300.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/07/livro6-225x300.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/07/livro5-225x300.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/07/livro5-225x300.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/07/livro4-225x300.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/07/livro4-225x300.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/07/livro12-300x225.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/07/livro12-300x225.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/07/livro11-300x225.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/07/livro11-300x225.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/07/livro3-225x300.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/07/livro3-225x300.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/07/livro2-225x300.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/07/livro2-225x300.jpg",
           "alt": ""
         },
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/07/livro1-225x300.jpg",
+          "src": "https://aectm.pt/wp-content/uploads/2018/07/livro1-225x300.jpg",
           "alt": ""
         }
       ],
@@ -3674,11 +3703,11 @@
         },
         {
           "text": "Novo Modelo de Avaliação Externa",
-          "href": "http://aectm.pt/wp-content/uploads/2024/10/Comunicado_MECI_-Avaliacao_Externa_2024_2025_18.07.2024.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/10/Comunicado_MECI_-Avaliacao_Externa_2024_2025_18.07.2024.pdf"
         },
         {
           "text": "Apresentação Modelo de Avaliação Externa",
-          "href": "http://aectm.pt/wp-content/uploads/2024/10/Apresentacao_-Avaliar-melhor_Aprender-mais-18-de-julho-de-2024.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2024/10/Apresentacao_-Avaliar-melhor_Aprender-mais-18-de-julho-de-2024.pdf"
         }
       ]
     },
@@ -3698,18 +3727,18 @@
       ],
       "images": [
         {
-          "src": "http://aectm.pt/wp-content/uploads/2022/04/logo1.gif",
+          "src": "https://aectm.pt/wp-content/uploads/2022/04/logo1.gif",
           "alt": ""
         }
       ],
       "links": [
         {
           "text": "Programa de Educação Estética e Artística",
-          "href": "http://educacaoartistica.dge.mec.pt/"
+          "href": "https://educacaoartistica.dge.mec.pt/"
         },
         {
           "text": "Documento – Proteção de Dados",
-          "href": "http://aectm.pt/wp-content/uploads/2020/03/proteção-de-dados.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2020/03/proteção-de-dados.pdf"
         }
       ]
     },
@@ -3781,7 +3810,7 @@
       ],
       "images": [
         {
-          "src": "http://aectm.pt/wp-content/uploads/2018/05/cpcjpcm-300x113.png",
+          "src": "https://aectm.pt/wp-content/uploads/2018/05/cpcjpcm-300x113.png",
           "alt": ""
         }
       ],
@@ -3792,35 +3821,35 @@
         },
         {
           "text": "Lei Tutelar Educativa",
-          "href": "http://aectm.pt/wp-content/uploads/2018/05/Lei-Tutelar-Educativa.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2018/05/Lei-Tutelar-Educativa.pdf"
         },
         {
           "text": "Convenção sobre os Direitos da Criança",
-          "href": "http://aectm.pt/wp-content/uploads/2018/05/ConvenosobreosDireitosdaCriana.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2018/05/ConvenosobreosDireitosdaCriana.pdf"
         },
         {
           "text": "Declaração dos Direitos da Criança",
-          "href": "http://aectm.pt/wp-content/uploads/2019/11/declaracaodosdireitosdacrianca.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2019/11/declaracaodosdireitosdacrianca.pdf"
         },
         {
           "text": "Lei de Proteção das Crianças e Jovens em Perigo",
-          "href": "http://aectm.pt/wp-content/uploads/2019/11/leideproteccaodecriancasejovensemperigo.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2019/11/leideproteccaodecriancasejovensemperigo.pdf"
         },
         {
           "text": "Lei nº 142/2015 – 2ª alt. – Lei de Proteção de Crianças e Jovens em Perigo",
-          "href": "http://aectm.pt/wp-content/uploads/2019/11/lei_142_2015.2a_alteracao_a_lei_de_protecao_de_criancas_e_jovens_em_peri._1.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2019/11/lei_142_2015.2a_alteracao_a_lei_de_protecao_de_criancas_e_jovens_em_peri._1.pdf"
         },
         {
           "text": "Lei nº 147/99 com alterações",
-          "href": "http://aectm.pt/wp-content/uploads/2019/11/lei_147_com_alteracoes.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2019/11/lei_147_com_alteracoes.pdf"
         },
         {
           "text": "Lei nº 141/2015 – Regime Geral do Processo Tutelar Cível",
-          "href": "http://aectm.pt/wp-content/uploads/2019/11/lei_141_2015.regime_geral_do_processo_tutalr_civel.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2019/11/lei_141_2015.regime_geral_do_processo_tutalr_civel.pdf"
         },
         {
           "text": "Lei nº 143/2015 – Regime Jurídico do Processo de Adoção",
-          "href": "http://aectm.pt/wp-content/uploads/2019/11/lei_143_2015.regime_juridico_do_processo_de_adocao_0.pdf"
+          "href": "https://aectm.pt/wp-content/uploads/2019/11/lei_143_2015.regime_juridico_do_processo_de_adocao_0.pdf"
         }
       ]
     },
@@ -3949,29 +3978,46 @@
       ],
       "images": [],
       "links": []
+    },
+    "resultados-escolares-pautas-de-avaliacao": {
+      "title": "Resultados Escolares / Pautas de avaliação",
+      "slug": "resultados-escolares-pautas-de-avaliacao",
+      "text": "As pautas de avaliação podem ser consultadas nos respetivos estabelecimentos de ensino.\nAs Normas da comissão da proteção de dados recomendam a não publicação dos resultados, devendo consultar as pautas nos estabelecimentos de ensino respetivos.",
+      "blocks": [
+        {
+          "tag": "p",
+          "text": "As pautas de avaliação podem ser consultadas nos respetivos estabelecimentos de ensino."
+        },
+        {
+          "tag": "p",
+          "text": "As Normas da comissão da proteção de dados recomendam a não publicação dos resultados, devendo consultar as pautas nos estabelecimentos de ensino respetivos."
+        }
+      ],
+      "images": [],
+      "links": []
     }
   },
   "news": [
     {
-      "id": 10626,
-      "slug": "bem-vindos-ao-ano-letivo-2026-2027",
+      "id": 10742,
+      "slug": "mensagem-de-boas-vindas-2",
       "date": "2026-09-08",
-      "title": "Bem-vindos ao ano letivo 2026/2027!",
-      "excerpt": "É com grande entusiasmo e sentido de responsabilidade que iniciamos um novo ano letivo no Agrupamento de Escolas de Castro Marim. Cada novo ano letivo é um momento de recomeçar, de renovar sonhos e projetos, de enfrentar novos desafios e, sobretudo, de continuar a aprender e a crescer em conjunto. É neste espírito de confiança, […]\n",
-      "body": "É com grande entusiasmo e sentido de responsabilidade que iniciamos um novo ano letivo no Agrupamento de Escolas de Castro Marim.\nCada novo ano letivo é um momento de recomeçar, de renovar sonhos e projetos, de enfrentar novos desafios e, sobretudo, de continuar a aprender e a crescer em conjunto. É neste espírito de confiança, proximidade e compromisso que damos as boas-vindas a toda a nossa comunidade escolar.\nEste início de ano assume também um significado especial, marcado por uma nova etapa na liderança do nosso Agrupamento. Uma transição representa sempre um momento de mudança, mas também uma oportunidade para olhar o futuro com confiança, valorizando o caminho que já foi percorrido e mantendo vivo aquilo que nos une: a nossa escola, os nossos alunos e a construção de uma educação de qualidade, inclusiva e humanista.\nQueremos que este novo ciclo seja vivido com serenidade, entusiasmo e espírito de união. Uma escola constrói-se diariamente através das relações que estabelece, das experiências que proporciona e da capacidade de cada um contribuir para um ambiente onde todos se sintam acolhidos, respeitados e valorizados.\nContinuaremos, por isso, a trabalhar de forma próxima e colaborativa, com os olhos postos no futuro, mas sem perder de vista os valores e a identidade que caracterizam o Agrupamento de Escolas de Castro Marim.\nQue 2026/2027 seja um ano de novas aprendizagens, de conquistas, de crescimento e, acima de tudo, de construção conjunta.\nVotos de um excelente ano letivo, repleto de entusiasmo, confiança e sucesso.\nUm abraço amigo,\nJosé Nunes",
-      "link": "https://aectm.pt/2026/09/bem-vindos-ao-ano-letivo-2026-2027/",
-      "image": null,
+      "title": "Mensagem de Boas Vindas",
+      "excerpt": "Bem-vindos ao ano letivo 2026/2027! É com grande entusiasmo e sentido de responsabilidade que iniciamos um novo ano letivo no Agrupamento de Escolas de Castro Marim. Cada novo ano letivo é um momento de recomeçar, de renovar sonhos e projetos, de enfrentar novos desafios e, sobretudo, de continuar a aprender e a crescer em conjunto. […]",
+      "body": "Bem-vindos ao ano letivo 2026/2027!\nÉ com grande entusiasmo e sentido de responsabilidade que iniciamos um novo ano letivo no Agrupamento de Escolas de Castro Marim.\nCada novo ano letivo é um momento de recomeçar, de renovar sonhos e projetos, de enfrentar novos desafios e, sobretudo, de continuar a aprender e a crescer em conjunto. É neste espírito de confiança, proximidade e compromisso que damos as boas-vindas a toda a nossa comunidade escolar.\nEste início de ano assume também um significado especial, marcado por uma nova etapa na liderança do nosso Agrupamento. Uma transição representa sempre um momento de mudança, mas também uma oportunidade para olhar o futuro com confiança, valorizando o caminho que já foi percorrido e mantendo vivo aquilo que nos une: a nossa escola, os nossos alunos e a construção de uma educação de qualidade, inclusiva e humanista.\nQueremos que este novo ciclo seja vivido com serenidade, entusiasmo e espírito de união. Uma escola constrói-se diariamente através das relações que estabelece, das experiências que proporciona e da capacidade de cada um contribuir para um ambiente onde todos se sintam acolhidos, respeitados e valorizados.\nContinuaremos, por isso, a trabalhar de forma próxima e colaborativa, com os olhos postos no futuro, mas sem perder de vista os valores e a identidade que caracterizam o Agrupamento de Escolas de Castro Marim.\nQue 2026/2027 seja um ano de novas aprendizagens, de conquistas, de crescimento e, acima de tudo, de construção conjunta.\nVotos de um excelente ano letivo, repleto de entusiasmo, confiança e sucesso.\nUm abraço amigo,\nJosé Nunes",
+      "link": "https://aectm.pt/2026/09/mensagem-de-boas-vindas-2/",
+      "image": "/media/news/mensagem-de-boas-vindas-2.jpg",
       "author": "helder silva"
     },
     {
-      "id": 10629,
-      "slug": "informacao-arranque-do-ano-letivo",
+      "id": 10730,
+      "slug": "arranque-do-ano-letivo-informacao",
       "date": "2026-09-08",
-      "title": "_",
+      "title": "Arranque do Ano Letivo – Informação",
       "excerpt": "",
       "body": "",
-      "link": "https://aectm.pt/2026/09/informacao-arranque-do-ano-letivo/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/09/Info_arranque_ano-letivo_26-27.jpg",
+      "link": "https://aectm.pt/2026/09/arranque-do-ano-letivo-informacao/",
+      "image": "/media/news/arranque-do-ano-letivo-informacao.jpg",
       "author": "helder silva"
     },
     {
@@ -3979,10 +4025,10 @@
       "slug": "sardinhas",
       "date": "2026-07-21",
       "title": "Sardinhas",
-      "excerpt": "Sardinhas com alma: da massa à quadra popular A turma PIEF do Agrupamento de Escolas de Castro Marim desenvolveu o projeto “Sardinhas com alma: da massa à quadra popular”, envolvendo as disciplinas de Viver em Português, Oficina de Artes e Comunicar em Língua Estrangeira – Inglês. Partindo da sardinha como símbolo da cultura portuguesa, os […]\n",
-      "body": "Sardinhas com alma: da massa à quadra popular\nA turma PIEF do Agrupamento de Escolas de Castro Marim desenvolveu o projeto “Sardinhas com alma: da massa à quadra popular”, envolvendo as disciplinas de Viver em Português, Oficina de Artes e Comunicar em Língua Estrangeira – Inglês.\nPartindo da sardinha como símbolo da cultura portuguesa, os alunos realizaram uma pesquisa visual, criaram esboços, deram forma às sardinhas em pasta de moldar e pintaram-nas com padrões inspirados na tradição popular. As disciplinas de Viver em Português e de Oficina de Artes orientaram todo o processo criativo, enquanto o Inglês permitiu elaborar pequenas legendas bilingues associadas às peças.\nOs alunos escreveram também quadras populares originais, relacionando cada texto com a respetiva sardinha criada. O projeto culminou numa exposição final na Biblioteca Escolar, onde a comunidade pôde apreciar o percurso artístico e o empenho da turma.\nA iniciativa destacou a criatividade dos alunos da turma PIEF e reforçou a importância da cultura popular e da aprendizagem interdisciplinar.",
+      "excerpt": "Sardinhas com alma: da massa à quadra popular A turma PIEF do Agrupamento de Escolas de Castro Marim desenvolveu o projeto “Sardinhas com alma: da massa à quadra popular”, envolvendo as disciplinas de Viver em Português, Oficina de Artes e Comunicar em Língua Estrangeira – Inglês. Partindo da sardinha como símbolo da cultura portuguesa, os […]",
+      "body": "Sardinhas com alma: da massa à quadra popular\n\nA turma PIEF do Agrupamento de Escolas de Castro Marim desenvolveu o projeto “Sardinhas com alma: da massa à quadra popular”, envolvendo as disciplinas de Viver em Português, Oficina de Artes e Comunicar em Língua Estrangeira – Inglês.\n\nPartindo da sardinha como símbolo da cultura portuguesa, os alunos realizaram uma pesquisa visual, criaram esboços, deram forma às sardinhas em pasta de moldar e pintaram-nas com padrões inspirados na tradição popular. As disciplinas de Viver em Português e de Oficina de Artes orientaram todo o processo criativo, enquanto o Inglês permitiu elaborar pequenas legendas bilingues associadas às peças.\n\nOs alunos escreveram também quadras populares originais, relacionando cada texto com a respetiva sardinha criada. O projeto culminou numa exposição final na Biblioteca Escolar, onde a comunidade pôde apreciar o percurso artístico e o empenho da turma.\n\nA iniciativa destacou a criatividade dos alunos da turma PIEF e reforçou a importância da cultura popular e da aprendizagem interdisciplinar.",
       "link": "https://aectm.pt/2026/07/sardinhas/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/Sardinhas-25-26-5-scaled.jpg",
+      "image": "/media/news/sardinhas.jpg",
       "author": "helder silva"
     },
     {
@@ -3990,10 +4036,10 @@
       "slug": "maquetes",
       "date": "2026-07-21",
       "title": "Maquetes",
-      "excerpt": "Quando a leitura ganha forma: maquetes que contam histórias  A turma B do 7.º ano criou maquetes inspiradas na obra História de uma Gaivota e do Gato que a Ensinou a Voar, transformando a leitura num processo visual e criativo. O projeto articulou Português e Educação Visual, desafiando os alunos a selecionar momentos-chave da narrativa […]\n",
-      "body": "Quando a leitura ganha forma: maquetes que contam histórias\nA turma B do 7.º ano criou maquetes inspiradas na obra\nHistória de uma Gaivota e do Gato que a Ensinou a Voar\n, transformando a leitura num processo visual e criativo. O projeto articulou Português e Educação Visual, desafiando os alunos a selecionar momentos-chave da narrativa e a representá‑los de forma tridimensional.\nAs maquetes foram expostas na Biblioteca Escolar, oferecendo aos visitantes um percurso visual pela obra. O empenho dos alunos destacou-se ao longo de todo o processo, revelando criatividade, responsabilidade e colaboração. A atividade reforçou competências académicas e artísticas, estimulando a imaginação e o prazer de aprender.",
+      "excerpt": "Quando a leitura ganha forma: maquetes que contam histórias  A turma B do 7.º ano criou maquetes inspiradas na obra História de uma Gaivota e do Gato que a Ensinou a Voar, transformando a leitura num processo visual e criativo. O projeto articulou Português e Educação Visual, desafiando os alunos a selecionar momentos-chave da narrativa […]",
+      "body": "Quando a leitura ganha forma: maquetes que contam histórias\n\n A turma B do 7.º ano criou maquetes inspiradas na obra História de uma Gaivota e do Gato que a Ensinou a Voar, transformando a leitura num processo visual e criativo. O projeto articulou Português e Educação Visual, desafiando os alunos a selecionar momentos-chave da narrativa e a representá‑los de forma tridimensional.\n\nAs maquetes foram expostas na Biblioteca Escolar, oferecendo aos visitantes um percurso visual pela obra. O empenho dos alunos destacou-se ao longo de todo o processo, revelando criatividade, responsabilidade e colaboração. A atividade reforçou competências académicas e artísticas, estimulando a imaginação e o prazer de aprender.",
       "link": "https://aectm.pt/2026/07/maquetes/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/Maquete-25-26-8-1.jpg",
+      "image": "/media/news/maquetes.jpg",
       "author": "helder silva"
     },
     {
@@ -4001,10 +4047,10 @@
       "slug": "historias-com-magia",
       "date": "2026-07-21",
       "title": "Histórias com magia",
-      "excerpt": "Histórias que ganham vida: a criatividade da turma B em ação A turma B do 7.º ano deu continuidade ao projeto “Histórias com Magia”, ao trabalhar a pares na adaptação e reconto de histórias. A atividade destacou-se pela articulação entre Português, Descobrir e Aprender e Tecnologias de Informação e Comunicação, permitindo aos alunos desenvolver aprendizagens […]\n",
-      "body": "Histórias que ganham vida: a criatividade da turma B em ação\nA turma B do 7.º ano deu continuidade ao projeto “Histórias com Magia”, ao trabalhar a pares na adaptação e reconto de histórias. A atividade destacou-se pela articulação entre Português, Descobrir e Aprender e Tecnologias de Informação e Comunicação, permitindo aos alunos desenvolver aprendizagens de forma integrada e criativa.\nO projeto culminou na apresentação das histórias às turmas do primeiro ciclo da Escola EB1 de Castro Marim, na tarde do Dia da Criança. Os alunos demonstraram empenho, responsabilidade e entusiasmo, revelando domínio dos conteúdos e competências como comunicação, criatividade, colaboração e gestão de emoções perante um público real.\nO envolvimento de toda a turma evidenciou o impacto positivo de atividades interdisciplinares que fortalecem a ligação à comunidade educativa. A experiência reforçou a ideia de que aprender é também criar, partilhar e comunicar, contribuindo para o desenvolvimento integral dos alunos.",
+      "excerpt": "Histórias que ganham vida: a criatividade da turma B em ação A turma B do 7.º ano deu continuidade ao projeto “Histórias com Magia”, ao trabalhar a pares na adaptação e reconto de histórias. A atividade destacou-se pela articulação entre Português, Descobrir e Aprender e Tecnologias de Informação e Comunicação, permitindo aos alunos desenvolver aprendizagens […]",
+      "body": "Histórias que ganham vida: a criatividade da turma B em ação\n\nA turma B do 7.º ano deu continuidade ao projeto “Histórias com Magia”, ao trabalhar a pares na adaptação e reconto de histórias. A atividade destacou-se pela articulação entre Português, Descobrir e Aprender e Tecnologias de Informação e Comunicação, permitindo aos alunos desenvolver aprendizagens de forma integrada e criativa.\n\nO projeto culminou na apresentação das histórias às turmas do primeiro ciclo da Escola EB1 de Castro Marim, na tarde do Dia da Criança. Os alunos demonstraram empenho, responsabilidade e entusiasmo, revelando domínio dos conteúdos e competências como comunicação, criatividade, colaboração e gestão de emoções perante um público real.\n\nO envolvimento de toda a turma evidenciou o impacto positivo de atividades interdisciplinares que fortalecem a ligação à comunidade educativa. A experiência reforçou a ideia de que aprender é também criar, partilhar e comunicar, contribuindo para o desenvolvimento integral dos alunos.",
       "link": "https://aectm.pt/2026/07/historias-com-magia/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/EB1-25-26-5-scaled.jpg",
+      "image": "/media/news/historias-com-magia.jpg",
       "author": "helder silva"
     },
     {
@@ -4012,10 +4058,10 @@
       "slug": "lista-de-candidatos-admitidos-e-excluidos-ao-processo-concursal",
       "date": "2026-07-16",
       "title": "Lista de candidatos admitidos e excluídos ao processo concursal",
-      "excerpt": "Dando cumprimento ao estipulado no no 6 do Aviso no 15208/2026/2 referente à Abertura do Procedimento Concursal para eleição do/a Diretor/a do Agrupamento de Escolas do Concelho de Castro Marim, publicado na 2.a Série do Diário da República, no dia 19 /06/ 2026, torna-se pública a lista de candidatos admitidos e excluídos ao concurso conforme […]\n",
+      "excerpt": "Dando cumprimento ao estipulado no no 6 do Aviso no 15208/2026/2 referente à Abertura do Procedimento Concursal para eleição do/a Diretor/a do Agrupamento de Escolas do Concelho de Castro Marim, publicado na 2.a Série do Diário da República, no dia 19 /06/ 2026, torna-se pública a lista de candidatos admitidos e excluídos ao concurso conforme […]",
       "body": "Dando cumprimento ao estipulado no no 6 do Aviso no 15208/2026/2 referente à Abertura do Procedimento Concursal para eleição do/a Diretor/a do Agrupamento de Escolas do Concelho de Castro Marim, publicado na 2.a Série do Diário da República, no dia 19 /06/ 2026, torna-se pública a lista de candidatos admitidos e excluídos ao concurso conforme deliberado em reunião da Comissão para acompanhar o processo de eleição do Diretor, designada para o efeito pelo Conselho Geral.",
       "link": "https://aectm.pt/2026/07/lista-de-candidatos-admitidos-e-excluidos-ao-processo-concursal/",
-      "image": "http://aectm.pt/wp-content/uploads/2026/07/Candidatos-admitidos-e-excluidos_signed-724x1024.jpg",
+      "image": "/media/news/lista-de-candidatos-admitidos-e-excluidos-ao-processo-concursal.jpg",
       "author": "helder silva"
     },
     {
@@ -4023,10 +4069,10 @@
       "slug": "alunos-da-escola-vencem-premio-nacional",
       "date": "2026-07-06",
       "title": "ALUNOS DA ESCOLA VENCEM PRÉMIO NACIONAL",
-      "excerpt": "Marta Teixeira e Martim Antunes, alunos do 9º ano (turmas A e B, respetivamente) foram um dos sete grupos vencedores, na categoria do 3º ciclo do Ensino Básico, do concurso Pinóquio na Escola, uma iniciativa conjunta da Fundação Calouste Gulbenkian e do Polígrafo. https://poligrafo.sapo.pt/institucional/pinoquio-na-escola-distingue-vencedores-da-edicao-2025-2026 O trabalho que mereceu esta prestig",
-      "body": "Marta Teixeira e Martim Antunes, alunos do 9º ano (turmas A e B, respetivamente) foram um dos sete grupos vencedores, na categoria do 3º ciclo do Ensino Básico, do concurso Pinóquio na Escola, uma iniciativa conjunta da Fundação Calouste Gulbenkian e do Polígrafo.\nhttps://poligrafo.sapo.pt/institucional/pinoquio-na-escola-distingue-vencedores-da-edicao-2025-2026\nO trabalho que mereceu esta prestigiante distinção foi Anatomima da Desinformação: o Caso das Alergias e versa, como o próprio título sugere, a problemática da desinformação, um problema candente que ameaça fazer ruir os fundamentos da nossa civilização.\nO trabalho foi realizado no âmbito da disciplina de Português, lecionada por José Guedes.",
+      "excerpt": "Marta Teixeira e Martim Antunes, alunos do 9º ano (turmas A e B, respetivamente) foram um dos sete grupos vencedores, na categoria do 3º ciclo do Ensino Básico, do concurso Pinóquio na Escola, uma iniciativa conjunta da Fundação Calouste Gulbenkian e do Polígrafo. https://poligrafo.sapo.pt/institucional/pinoquio-na-escola-distingue-vencedores-da-edicao-2025-2026 O trabalho que mereceu esta prestigiante distinção foi Anatomima da Desinformação: […]",
+      "body": "Marta Teixeira e Martim Antunes, alunos do 9º ano (turmas A e B, respetivamente) foram um dos sete grupos vencedores, na categoria do 3º ciclo do Ensino Básico, do concurso Pinóquio na Escola, uma iniciativa conjunta da Fundação Calouste Gulbenkian e do Polígrafo.\n\nhttps://poligrafo.sapo.pt/institucional/pinoquio-na-escola-distingue-vencedores-da-edicao-2025-2026\n\nO trabalho que mereceu esta prestigiante distinção foi Anatomima da Desinformação: o Caso das Alergias e versa, como o próprio título sugere, a problemática da desinformação, um problema candente que ameaça fazer ruir os fundamentos da nossa civilização.\nO trabalho foi realizado no âmbito da disciplina de Português, lecionada por José Guedes.",
       "link": "https://aectm.pt/2026/07/alunos-da-escola-vencem-premio-nacional/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/banner.png",
+      "image": "/media/news/alunos-da-escola-vencem-premio-nacional.png",
       "author": "helder silva"
     },
     {
@@ -4034,10 +4080,10 @@
       "slug": "2a-comemoracao-do-dia-mundial-da-diversidade-cultural",
       "date": "2026-07-06",
       "title": "2ª COMEMORAÇÃO DO DIA MUNDIAL DA DIVERSIDADE CULTURAL",
-      "excerpt": "A Escola Básica de Castro Marim celebrou, no dia 21 de maio, o Dia Mundial da Diversidade Cultural para o Diálogo e o Desenvolvimento, transformando o espaço escolar num encontro de culturas, cores e tradições. Ao longo do dia, alunos, professores e toda a comunidade educativa envolveram-se em atividades que evidenciaram a riqueza cultural presente […]\n",
-      "body": "A Escola Básica de Castro Marim celebrou, no dia 21 de maio, o Dia Mundial da Diversidade Cultural para o Diálogo e o Desenvolvimento, transformando o espaço escolar num encontro de culturas, cores e tradições.\nAo longo do dia, alunos, professores e toda a comunidade educativa envolveram-se em atividades que evidenciaram a riqueza cultural presente na escola e reforçaram valores essenciais como o respeito, o diálogo e a convivência saudável.\nA semana ficou assinalada pelo Mural das Culturas Fragmentos de Mim, uma obra coletiva criada pelos alunos, onde cada fragmento representava elementos da sua identidade, das suas origens e tradições familiares.\nParalelamente, esteve patente uma exposição de livros versando a diversidade e a\ninterculturalidade e incentivando a leitura e o contacto com outras realidades.\nA escola acolheu ainda uma mostra de objetos, fotografias, vestuário e símbolos culturais, refletindo a pluralidade de culturas representadas pelos alunos. A par desta exposição, os jogos culturais promoveram ainteração, o espírito de equipa e a descoberta de novas tradições.\nPor todo o recinto — portas, corredores e espaços comuns — surgiram frases inspiradoras sobre diversidade, convidando à reflexão e reforçando a importância da inclusão no quotidiano escolar.\nHouve também espaço para momentos formativos, com destaque para um workshop sobre Diversidade / Interculturalidade dinamizado pela animadora cultural e linguística da escola.\nUm dos momentos mais marcantes do dia foi o Flashmob da Diversidade, que reuniu a comunidade escolar no exterior, num gesto coletivo de celebração da união, inclusão e força da diversidade.\nDurante a hora de almoço, as expressões artísticas ganharam destaque com atuações musicais e danças apresentadas por alunos que trouxeram para o palco um pouco das suas raízes culturais, recebendo forte apoio do público.\nAs pinturas com henna despertaram grande interesse, proporcionando contacto direto com uma arte ancestral e muito apreciada, enquanto a atividade “Nomes próprios escritos em urdu”, inspirada na cultura paquistanesa, permitiu aos participantes verem os seus nomes representados num novo alfabeto.\nA iniciativa reforçou a importância da diversidade como elemento essencial para o crescimento individual e coletivo, promovendo, ao longo do dia, um convívio saudável e fortalecendo os laços entre todos os membros da comunidade educativa.",
+      "excerpt": "A Escola Básica de Castro Marim celebrou, no dia 21 de maio, o Dia Mundial da Diversidade Cultural para o Diálogo e o Desenvolvimento, transformando o espaço escolar num encontro de culturas, cores e tradições. Ao longo do dia, alunos, professores e toda a comunidade educativa envolveram-se em atividades que evidenciaram a riqueza cultural presente […]",
+      "body": "A Escola Básica de Castro Marim celebrou, no dia 21 de maio, o Dia Mundial da Diversidade Cultural para o Diálogo e o Desenvolvimento, transformando o espaço escolar num encontro de culturas, cores e tradições.\n\nAo longo do dia, alunos, professores e toda a comunidade educativa envolveram-se em atividades que evidenciaram a riqueza cultural presente na escola e reforçaram valores essenciais como o respeito, o diálogo e a convivência saudável.\nA semana ficou assinalada pelo Mural das Culturas Fragmentos de Mim, uma obra coletiva criada pelos alunos, onde cada fragmento representava elementos da sua identidade, das suas origens e tradições familiares.\nParalelamente, esteve patente uma exposição de livros versando a diversidade e a\ninterculturalidade e incentivando a leitura e o contacto com outras realidades.\nA escola acolheu ainda uma mostra de objetos, fotografias, vestuário e símbolos culturais, refletindo a pluralidade de culturas representadas pelos alunos. A par desta exposição, os jogos culturais promoveram ainteração, o espírito de equipa e a descoberta de novas tradições.\nPor todo o recinto — portas, corredores e espaços comuns — surgiram frases inspiradoras sobre diversidade, convidando à reflexão e reforçando a importância da inclusão no quotidiano escolar.\nHouve também espaço para momentos formativos, com destaque para um workshop sobre Diversidade / Interculturalidade dinamizado pela animadora cultural e linguística da escola.\nUm dos momentos mais marcantes do dia foi o Flashmob da Diversidade, que reuniu a comunidade escolar no exterior, num gesto coletivo de celebração da união, inclusão e força da diversidade.\nDurante a hora de almoço, as expressões artísticas ganharam destaque com atuações musicais e danças apresentadas por alunos que trouxeram para o palco um pouco das suas raízes culturais, recebendo forte apoio do público.\nAs pinturas com henna despertaram grande interesse, proporcionando contacto direto com uma arte ancestral e muito apreciada, enquanto a atividade “Nomes próprios escritos em urdu”, inspirada na cultura paquistanesa, permitiu aos participantes verem os seus nomes representados num novo alfabeto.\nA iniciativa reforçou a importância da diversidade como elemento essencial para o crescimento individual e coletivo, promovendo, ao longo do dia, um convívio saudável e fortalecendo os laços entre todos os membros da comunidade educativa.",
       "link": "https://aectm.pt/2026/07/2a-comemoracao-do-dia-mundial-da-diversidade-cultural/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/banner-5-scaled.jpg",
+      "image": "/media/news/2a-comemoracao-do-dia-mundial-da-diversidade-cultural.jpg",
       "author": "helder silva"
     },
     {
@@ -4045,10 +4091,10 @@
       "slug": "desafios-darte-25-26",
       "date": "2026-07-06",
       "title": "DESAFIOS D’ARTE 25-26",
-      "excerpt": "O concurso Desafios d’Arte® 2025/2026, promovido pela Faber-Castell Portugal em parceria com a APEVT – Associação de Professores de Educação Visual e Tecnológica, desafia os alunos a refletirem sobre a arte como forma de expressão, pensamento e transformação. Sob o tema O Gesto e a Ideia: Diálogos Visuais em Tempos de Rutura, os participantes são […]\n",
-      "body": "O concurso Desafios d’Arte® 2025/2026, promovido pela Faber-Castell Portugal em parceria com a APEVT – Associação de Professores de Educação Visual e Tecnológica, desafia os alunos a refletirem sobre a arte como forma de expressão, pensamento e transformação.\nSob o tema O Gesto e a Ideia: Diálogos Visuais em Tempos de Rutura, os participantes são convidados a explorar diferentes linguagens artísticas, inspirando-se nas correntes do Conceptualismo, Gestualismo e Expressionismo. A proposta pretende incentivar a criação de obras que unam emoção, movimento e significado, valorizando tanto a ideia transmitida como a força expressiva do gesto artístico.\nOs alunos do Agrupamento de Escolas de Castro Marim participaram no escalão do 2.º ciclo.\nLeonardo Farinha, aluno do 5º C orientado pelo professor Joaquim Correia, apurou-se para a final com a obra A Objetiva.\nInspirada na corrente artística do Expressionismo, a obra utiliza pinceladas expressivas, cores vibrantes e técnica mista para representar a sensação de estarmos constantemente a ser observados na sociedade atual. As formas ligadas à natureza e aos pássaros surgem de forma subtil, criando um ambiente de dúvida e inquietação. As colagens de diferentes olhos simbolizam a vigilância permanente e fazem com que o observador também se sinta observado, independentemente do ponto de onde observa a obra. Desta forma, estabelece-se um diálogo visual entre a obra e quem a contempla, refletindo os tempos de mudança e rutura em que vivemos.\nA Gala Final dos Desafios d’Arte teve lugar no dia 30 de Maio no Museu Carris, em Lisboa.",
+      "excerpt": "O concurso Desafios d’Arte® 2025/2026, promovido pela Faber-Castell Portugal em parceria com a APEVT – Associação de Professores de Educação Visual e Tecnológica, desafia os alunos a refletirem sobre a arte como forma de expressão, pensamento e transformação. Sob o tema O Gesto e a Ideia: Diálogos Visuais em Tempos de Rutura, os participantes são […]",
+      "body": "O concurso Desafios d’Arte® 2025/2026, promovido pela Faber-Castell Portugal em parceria com a APEVT – Associação de Professores de Educação Visual e Tecnológica, desafia os alunos a refletirem sobre a arte como forma de expressão, pensamento e transformação.\n\nSob o tema O Gesto e a Ideia: Diálogos Visuais em Tempos de Rutura, os participantes são convidados a explorar diferentes linguagens artísticas, inspirando-se nas correntes do Conceptualismo, Gestualismo e Expressionismo. A proposta pretende incentivar a criação de obras que unam emoção, movimento e significado, valorizando tanto a ideia transmitida como a força expressiva do gesto artístico.\nOs alunos do Agrupamento de Escolas de Castro Marim participaram no escalão do 2.º ciclo.\nLeonardo Farinha, aluno do 5º C orientado pelo professor Joaquim Correia, apurou-se para a final com a obra A Objetiva.\nInspirada na corrente artística do Expressionismo, a obra utiliza pinceladas expressivas, cores vibrantes e técnica mista para representar a sensação de estarmos constantemente a ser observados na sociedade atual. As formas ligadas à natureza e aos pássaros surgem de forma subtil, criando um ambiente de dúvida e inquietação. As colagens de diferentes olhos simbolizam a vigilância permanente e fazem com que o observador também se sinta observado, independentemente do ponto de onde observa a obra. Desta forma, estabelece-se um diálogo visual entre a obra e quem a contempla, refletindo os tempos de mudança e rutura em que vivemos.\nA Gala Final dos Desafios d’Arte teve lugar no dia 30 de Maio no Museu Carris, em Lisboa.",
       "link": "https://aectm.pt/2026/07/desafios-darte-25-26/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/banner-4.jpg",
+      "image": "/media/news/desafios-darte-25-26.jpg",
       "author": "helder silva"
     },
     {
@@ -4056,10 +4102,10 @@
       "slug": "visita-de-estudo-a-escola-de-hotelaria-e-turismo-de-vrsa",
       "date": "2026-07-06",
       "title": "VISITA DE ESTUDO À ESCOLA DE HOTELARIA E TURISMO DE VRSA",
-      "excerpt": "No dia 8 de maio, os alunos do 9.º C e do PIEF realizaram uma visita de estudo à Escola de Hotelaria e Turismo de Vila Real de Santo António, tendo feito sumos naturais e confecionado empadas saudáveis. No dia 22 foi a vez dos alunos do 9º B.Com esta atividade, os alunos tiveram a oportunidade […]\n",
-      "body": "No dia 8 de maio, os alunos do 9.º C e do PIEF realizaram uma visita de estudo à Escola de Hotelaria e Turismo de Vila Real de Santo António, tendo feito sumos naturais e confecionado empadas saudáveis.\nNo dia 22 foi a vez dos alunos do 9º B.\nCom esta atividade, os alunos tiveram a oportunidade de promover hábitos de vida saudável e conhecer as hipóteses de prosseguimento de estudos.\nA autarquia de Castro Marim cedeu o transporte.",
+      "excerpt": "No dia 8 de maio, os alunos do 9.º C e do PIEF realizaram uma visita de estudo à Escola de Hotelaria e Turismo de Vila Real de Santo António, tendo feito sumos naturais e confecionado empadas saudáveis. No dia 22 foi a vez dos alunos do 9º B.Com esta atividade, os alunos tiveram a oportunidade […]",
+      "body": "No dia 8 de maio, os alunos do 9.º C e do PIEF realizaram uma visita de estudo à Escola de Hotelaria e Turismo de Vila Real de Santo António, tendo feito sumos naturais e confecionado empadas saudáveis.\n\nNo dia 22 foi a vez dos alunos do 9º B.\nCom esta atividade, os alunos tiveram a oportunidade de promover hábitos de vida saudável e conhecer as hipóteses de prosseguimento de estudos.\nA autarquia de Castro Marim cedeu o transporte.",
       "link": "https://aectm.pt/2026/07/visita-de-estudo-a-escola-de-hotelaria-e-turismo-de-vrsa/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/IMG_20260508_112013-768x1024.jpg",
+      "image": "/media/news/visita-de-estudo-a-escola-de-hotelaria-e-turismo-de-vrsa.jpg",
       "author": "helder silva"
     },
     {
@@ -4067,10 +4113,10 @@
       "slug": "um-testemunho-vivo-sobre-a-guerra-do-ultramar",
       "date": "2026-07-06",
       "title": "UM TESTEMUNHO VIVO SOBRE A GUERRA DO ULTRAMAR",
-      "excerpt": "No âmbito da disciplina de História e Geografia de Portugal, a turma A do 6º ano, teve a oportunidade de receber a visita do avô de um aluno da turma, que partilhou, de forma muito próxima e significativa, a sua experiência vivida durante a Guerra Colonial, nos 27 meses que esteve em Angola. Ao longo […]\n",
-      "body": "No âmbito da disciplina de História e Geografia de Portugal, a turma A do 6º ano, teve a oportunidade de receber a visita do avô de um aluno da turma, que partilhou, de forma muito próxima e significativa, a sua experiência vivida durante a Guerra Colonial, nos 27 meses que esteve em Angola.\nAo longo da sessão, os alunos escutaram atentamente relatos sobre as vivências, os desafios e os momentos marcantes desse período da História de Portugal,\naprofundando os seus conhecimentos através de um testemunho real e emotivo.\nPara tornar este momento ainda mais especial, o convidado trouxe a sua caderneta militar, fotografias da época e uma medalha de condecoração recebida pelo serviço prestado, despertando grande curiosidade e interesse entre os alunos.\nEstes documentos permitiram um contacto mais próximo com a História, ajudando a compreender melhor a realidade vivida pelos militares naquele contexto.\nOs alunos participaram com entusiasmo, colocando questões e demonstrando respeito e interesse pelas experiências partilhadas.\nEsta atividade constituiu uma valiosa oportunidade de aprendizagem, promovendo a ligação entre gerações, a valorização da memória histórica e a reflexão sobre a\nimportância da paz.\nAgradecemos ao senhor João Ramos a disponibilidade e a generosa\npartilha deste testemunho tão rico e marcante para os nossos alunos.",
+      "excerpt": "No âmbito da disciplina de História e Geografia de Portugal, a turma A do 6º ano, teve a oportunidade de receber a visita do avô de um aluno da turma, que partilhou, de forma muito próxima e significativa, a sua experiência vivida durante a Guerra Colonial, nos 27 meses que esteve em Angola. Ao longo […]",
+      "body": "No âmbito da disciplina de História e Geografia de Portugal, a turma A do 6º ano, teve a oportunidade de receber a visita do avô de um aluno da turma, que partilhou, de forma muito próxima e significativa, a sua experiência vivida durante a Guerra Colonial, nos 27 meses que esteve em Angola.\n\nAo longo da sessão, os alunos escutaram atentamente relatos sobre as vivências, os desafios e os momentos marcantes desse período da História de Portugal,\naprofundando os seus conhecimentos através de um testemunho real e emotivo.\nPara tornar este momento ainda mais especial, o convidado trouxe a sua caderneta militar, fotografias da época e uma medalha de condecoração recebida pelo serviço prestado, despertando grande curiosidade e interesse entre os alunos.\nEstes documentos permitiram um contacto mais próximo com a História, ajudando a compreender melhor a realidade vivida pelos militares naquele contexto.\nOs alunos participaram com entusiasmo, colocando questões e demonstrando respeito e interesse pelas experiências partilhadas.\nEsta atividade constituiu uma valiosa oportunidade de aprendizagem, promovendo a ligação entre gerações, a valorização da memória histórica e a reflexão sobre a\nimportância da paz.\nAgradecemos ao senhor João Ramos a disponibilidade e a generosa\npartilha deste testemunho tão rico e marcante para os nossos alunos.",
       "link": "https://aectm.pt/2026/07/um-testemunho-vivo-sobre-a-guerra-do-ultramar/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/banner-2-scaled.jpg",
+      "image": "/media/news/um-testemunho-vivo-sobre-a-guerra-do-ultramar.jpg",
       "author": "helder silva"
     },
     {
@@ -4078,10 +4124,10 @@
       "slug": "peddy-paper-intergeracional",
       "date": "2026-07-06",
       "title": "PEDDY PAPER INTERGERACIONAL",
-      "excerpt": "Peddy Paper Intergeracional foi um sucesso. Durante os dias 13 e 14 de maio, o centro histórico de Castro Marim foi palco de uma verdadeira celebração da empatia, da partilha e da união entre gerações. O Peddy Paper Intergeracional, organizado pelo Agrupamento de Escolas de Castro Marim e pela Estrutura Residencial e Centro de Dia […]\n",
-      "body": "Peddy Paper Intergeracional foi um sucesso. Durante os dias 13 e 14 de maio, o centro histórico de Castro Marim foi palco de uma verdadeira celebração da empatia, da partilha e da união entre gerações.\nO Peddy Paper Intergeracional, organizado pelo Agrupamento de Escolas de Castro Marim e pela Estrutura Residencial e Centro de Dia António Cabrita- Alzheimer e outras demências, juntou crianças,  professores, técnicos, comunidade e instituições locais, numa iniciativa marcada pela emoção, cooperação e centenas de gestos de carinho.\nAo longo de dois dias intensos, todos os alunos do 1.º e do 5.º ano do Agrupamento de Escolas de Castro Marim participaram num percurso repleto de desafios, jogos, descobertas e momentos de aprendizagem, lado a lado com a utentes da Estrutura Residencial e Centro de Dia José Cabrita – Alzheimer e Outras Demências e do Lar e Centro de Dia Cegonha Branca, da Altura.\nMas houve algo que marcou especialmente esta edição: mais de 600 abraços foram distribuídos ao longo dos dois dias.\nAbraços espontâneos. Abraços tímidos. Abraços cheios de histórias. Abraços que aproximaram gerações e mostraram, de forma simples mas poderosa, que a idade nunca é uma barreira para a amizade, a aprendizagem e o afeto.\nO centro da vila ganhou vida através de equipas intergeracionais, desafios cooperativos e muito entusiasmo, envolvendo não apenas alunos e instituições, mas também toda a comunidade.\nA iniciativa contou com o apoio da Câmara Municipal de Castro Marim e da Junta de Freguesia de Castro Marim, bem como com o envolvimento de diversos parceiros locais, entre eles a Casa do Sal, o Mercado Local, o Castelo de Castro Marim, a Odiana, funcionários, voluntários e todas as pessoas que abriram portas, acolheram os postos e ajudaram a transformar a vila num espaço vivo de encontro e inclusão.\nEste evento decorre do projeto Plano de Desenvolvimento Pessoal Social e Comunitário Integrada no Plano Anual de Atividades do Agrupamento.\nA iniciativa teve como principal missão aproximar gerações e combater preconceitos associados ao envelhecimento e às demências, incluindo a Alzheimer e outras demências.\nE os números ajudam a perceber a importância desta ação. Num concelho onde existem cerca de 297 idosos por cada 100 jovens (cf. Censos de 2021), revela-se verdadeiramente essencial criar oportunidades reais de contacto, convivência e entendimento entre diferentes gerações.\nEntre gargalhadas, jogos, cooperação e muitos abraços, o Peddy Paper Intergeracional deixou uma certeza: quando gerações diferentes caminham juntas, todos ganham.\nMais do que uma atividade escolar, foram dois dias de memórias, afetos e humanidade, que dificilmente serão esquecidos por quem participou.",
+      "excerpt": "Peddy Paper Intergeracional foi um sucesso. Durante os dias 13 e 14 de maio, o centro histórico de Castro Marim foi palco de uma verdadeira celebração da empatia, da partilha e da união entre gerações. O Peddy Paper Intergeracional, organizado pelo Agrupamento de Escolas de Castro Marim e pela Estrutura Residencial e Centro de Dia […]",
+      "body": "Peddy Paper Intergeracional foi um sucesso. Durante os dias 13 e 14 de maio, o centro histórico de Castro Marim foi palco de uma verdadeira celebração da empatia, da partilha e da união entre gerações.\n\nO Peddy Paper Intergeracional, organizado pelo Agrupamento de Escolas de Castro Marim e pela Estrutura Residencial e Centro de Dia António Cabrita- Alzheimer e outras demências, juntou crianças,  professores, técnicos, comunidade e instituições locais, numa iniciativa marcada pela emoção, cooperação e centenas de gestos de carinho.\nAo longo de dois dias intensos, todos os alunos do 1.º e do 5.º ano do Agrupamento de Escolas de Castro Marim participaram num percurso repleto de desafios, jogos, descobertas e momentos de aprendizagem, lado a lado com a utentes da Estrutura Residencial e Centro de Dia José Cabrita – Alzheimer e Outras Demências e do Lar e Centro de Dia Cegonha Branca, da Altura.\nMas houve algo que marcou especialmente esta edição: mais de 600 abraços foram distribuídos ao longo dos dois dias.\nAbraços espontâneos. Abraços tímidos. Abraços cheios de histórias. Abraços que aproximaram gerações e mostraram, de forma simples mas poderosa, que a idade nunca é uma barreira para a amizade, a aprendizagem e o afeto.\nO centro da vila ganhou vida através de equipas intergeracionais, desafios cooperativos e muito entusiasmo, envolvendo não apenas alunos e instituições, mas também toda a comunidade. \nA iniciativa contou com o apoio da Câmara Municipal de Castro Marim e da Junta de Freguesia de Castro Marim, bem como com o envolvimento de diversos parceiros locais, entre eles a Casa do Sal, o Mercado Local, o Castelo de Castro Marim, a Odiana, funcionários, voluntários e todas as pessoas que abriram portas, acolheram os postos e ajudaram a transformar a vila num espaço vivo de encontro e inclusão.\nEste evento decorre do projeto Plano de Desenvolvimento Pessoal Social e Comunitário Integrada no Plano Anual de Atividades do Agrupamento.\nA iniciativa teve como principal missão aproximar gerações e combater preconceitos associados ao envelhecimento e às demências, incluindo a Alzheimer e outras demências.\nE os números ajudam a perceber a importância desta ação. Num concelho onde existem cerca de 297 idosos por cada 100 jovens (cf. Censos de 2021), revela-se verdadeiramente essencial criar oportunidades reais de contacto, convivência e entendimento entre diferentes gerações.\nEntre gargalhadas, jogos, cooperação e muitos abraços, o Peddy Paper Intergeracional deixou uma certeza: quando gerações diferentes caminham juntas, todos ganham. \nMais do que uma atividade escolar, foram dois dias de memórias, afetos e humanidade, que dificilmente serão esquecidos por quem participou.",
       "link": "https://aectm.pt/2026/07/peddy-paper-intergeracional/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/banner-1.jpg",
+      "image": "/media/news/peddy-paper-intergeracional.jpg",
       "author": "helder silva"
     },
     {
@@ -4089,10 +4135,10 @@
       "slug": "semana-do-bem-estar-digital",
       "date": "2026-07-06",
       "title": "SEMANA DO BEM-ESTAR DIGITAL",
-      "excerpt": "Na semana do Bem-estar Digital, que decorreu entre 30 de abril e 6 de maio, a disciplina de TIC dinamizou uma série de iniciativas com o objetivo de promover uma utilização mais consciente e saudável da tecnologia. Destas, destacamos a sessão Redes Sociais e Saúde Mental, dirigida aos alunos do 3º ciclo, com o objetivo de […]\n",
-      "body": "Na semana do Bem-estar Digital, que decorreu entre 30 de abril e 6 de maio, a disciplina de TIC dinamizou uma série de iniciativas com o objetivo de promover uma utilização mais consciente e saudável da tecnologia.\nDestas, destacamos a sessão Redes Sociais e Saúde Mental, dirigida aos alunos do 3º ciclo, com o objetivo de os sensibilizar para os impactos do uso das plataformas digitais no bem-estar psicológico, bem como promover a reflexão e o uso responsável das redes sociais.\nE porque o equilíbrio psico-emocional também passa pela atividade física, os intervalos foram animada com Just Dance, uma atividade destinada a promover momentos de diversão, energia e desconexão dos ecrãs.\nA semana do Bem-estar Digital contou com a intervenção da CPCJ de Castro Marim e da ABESFA, uma entidade social com intervenção na área de apoio à comunidade.\nhttps://canva.link/thk82gd3asigljv",
+      "excerpt": "Na semana do Bem-estar Digital, que decorreu entre 30 de abril e 6 de maio, a disciplina de TIC dinamizou uma série de iniciativas com o objetivo de promover uma utilização mais consciente e saudável da tecnologia. Destas, destacamos a sessão Redes Sociais e Saúde Mental, dirigida aos alunos do 3º ciclo, com o objetivo de […]",
+      "body": "Na semana do Bem-estar Digital, que decorreu entre 30 de abril e 6 de maio, a disciplina de TIC dinamizou uma série de iniciativas com o objetivo de promover uma utilização mais consciente e saudável da tecnologia.\n\nDestas, destacamos a sessão Redes Sociais e Saúde Mental, dirigida aos alunos do 3º ciclo, com o objetivo de os sensibilizar para os impactos do uso das plataformas digitais no bem-estar psicológico, bem como promover a reflexão e o uso responsável das redes sociais.\nE porque o equilíbrio psico-emocional também passa pela atividade física, os intervalos foram animada com Just Dance, uma atividade destinada a promover momentos de diversão, energia e desconexão dos ecrãs.\nA semana do Bem-estar Digital contou com a intervenção da CPCJ de Castro Marim e da ABESFA, uma entidade social com intervenção na área de apoio à comunidade.\n\nhttps://canva.link/thk82gd3asigljv",
       "link": "https://aectm.pt/2026/07/semana-do-bem-estar-digital/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/banner.jpeg",
+      "image": "/media/news/semana-do-bem-estar-digital.jpeg",
       "author": "helder silva"
     },
     {
@@ -4100,10 +4146,10 @@
       "slug": "4o-a-participa-no-hubliterario",
       "date": "2026-07-06",
       "title": "4º A PARTICIPA NO HUBLITERÁRIO",
-      "excerpt": "No passado dia 5 de maio, a turma do 4.º E, sob a orientação da professora Alzira Cavaco, participou no projeto HubLiterário, uma iniciativa que promove o gosto pela leitura, a partilha entre escolas e o desenvolvimento de competências de expressão oral e artística. No âmbito desta atividade, os alunos deslocaram-se à Escola Básica 2,3 […]\n",
-      "body": "No passado dia 5 de maio, a turma do 4.º E, sob a orientação da professora Alzira Cavaco, participou no projeto HubLiterário, uma iniciativa que promove o gosto pela leitura, a partilha entre escolas e o desenvolvimento de competências de expressão oral e artística.\nNo âmbito desta atividade, os alunos deslocaram-se à Escola Básica 2,3 de Monte Gordo, onde apresentaram uma peça de teatro baseada na obra O caracol que descobriu a importância da lentidão, de Luís Sepúlveda.\nA representação destacou-se pela criatividade, empenho e expressividade dos alunos, que deram vida à mensagem central da história: a importância de abrandar, refletir, valorizar o tempo e reconhecer o papel fundamental da colaboração e do trabalho em equipa.\nA participação no projeto permitiu aos alunos aprofundar o contacto com a literatura, bem como desenvolver competências sociais, de cooperação e de comunicação, reforçando a confiança e o trabalho em equipa.\nEsta foi, sem dúvida, uma experiência enriquecedora e memorável para todos os envolvidos, demonstrando o valor das atividades que cruzam a leitura com as artes performativas em contexto escolar.",
+      "excerpt": "No passado dia 5 de maio, a turma do 4.º E, sob a orientação da professora Alzira Cavaco, participou no projeto HubLiterário, uma iniciativa que promove o gosto pela leitura, a partilha entre escolas e o desenvolvimento de competências de expressão oral e artística. No âmbito desta atividade, os alunos deslocaram-se à Escola Básica 2,3 […]",
+      "body": "No passado dia 5 de maio, a turma do 4.º E, sob a orientação da professora Alzira Cavaco, participou no projeto HubLiterário, uma iniciativa que promove o gosto pela leitura, a partilha entre escolas e o desenvolvimento de competências de expressão oral e artística.\n\nNo âmbito desta atividade, os alunos deslocaram-se à Escola Básica 2,3 de Monte Gordo, onde apresentaram uma peça de teatro baseada na obra O caracol que descobriu a importância da lentidão, de Luís Sepúlveda.\nA representação destacou-se pela criatividade, empenho e expressividade dos alunos, que deram vida à mensagem central da história: a importância de abrandar, refletir, valorizar o tempo e reconhecer o papel fundamental da colaboração e do trabalho em equipa.\nA participação no projeto permitiu aos alunos aprofundar o contacto com a literatura, bem como desenvolver competências sociais, de cooperação e de comunicação, reforçando a confiança e o trabalho em equipa.\nEsta foi, sem dúvida, uma experiência enriquecedora e memorável para todos os envolvidos, demonstrando o valor das atividades que cruzam a leitura com as artes performativas em contexto escolar.",
       "link": "https://aectm.pt/2026/07/4o-a-participa-no-hubliterario/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/banner.jpg",
+      "image": "/media/news/4o-a-participa-no-hubliterario.jpg",
       "author": "helder silva"
     },
     {
@@ -4111,10 +4157,10 @@
       "slug": "dia-do-laco-azul",
       "date": "2026-07-06",
       "title": "DIA DO LAÇO AZUL",
-      "excerpt": "Abril é (também) o mês da prevenção dos maus tratos na infância e o símbolo do Laço Azul representa o compromisso coletivo na luta contra todas as formas de violência infantil, incluindo negligência e abuso — físico, psicológico e emocional. O nosso Agrupamento, conjuntamente com a CPCJ de Castro Marim e a ABESFA, promoveu uma […]\n",
-      "body": "Abril é (também) o mês da prevenção dos maus tratos na infância e o símbolo do Laço Azul representa o compromisso coletivo na luta contra todas as formas de violência infantil, incluindo negligência e abuso — físico, psicológico e emocional.\nO nosso Agrupamento, conjuntamente com a CPCJ de Castro Marim e a ABESFA, promoveu uma vez mais uma ação de consciencialização (Laço Azul Humano) para alertar a sociedade e incentivar a denúncia de situações de abuso.",
+      "excerpt": "Abril é (também) o mês da prevenção dos maus tratos na infância e o símbolo do Laço Azul representa o compromisso coletivo na luta contra todas as formas de violência infantil, incluindo negligência e abuso — físico, psicológico e emocional. O nosso Agrupamento, conjuntamente com a CPCJ de Castro Marim e a ABESFA, promoveu uma […]",
+      "body": "Abril é (também) o mês da prevenção dos maus tratos na infância e o símbolo do Laço Azul representa o compromisso coletivo na luta contra todas as formas de violência infantil, incluindo negligência e abuso — físico, psicológico e emocional.\n\nO nosso Agrupamento, conjuntamente com a CPCJ de Castro Marim e a ABESFA, promoveu uma vez mais uma ação de consciencialização (Laço Azul Humano) para alertar a sociedade e incentivar a denúncia de situações de abuso.",
       "link": "https://aectm.pt/2026/07/dia-do-laco-azul/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/laco-1024x768-1.jpg",
+      "image": "/media/news/dia-do-laco-azul.jpg",
       "author": "helder silva"
     },
     {
@@ -4122,10 +4168,10 @@
       "slug": "concurso-de-leitura-do-baixo-guadiana-2",
       "date": "2026-07-06",
       "title": "CONCURSO DE LEITURA DO BAIXO GUADIANA",
-      "excerpt": "Este ano o Concurso de Leitura do Baixo Guadiana não contou com nenhum vencedor proveniente do Agrupamento, mas nem por isso a participação dos nossos alunos foi menos meritória. Com efeito, foram muitos os que atingiram a fase final, como se prova pela lista que seguidamente se publica.1º ciclo. Altura: Clara Correia (turma M), Alice […]\n",
-      "body": "Este ano o Concurso de Leitura do Baixo Guadiana não contou com nenhum vencedor proveniente do Agrupamento, mas nem por isso a participação dos nossos alunos foi menos meritória.\nCom efeito, foram muitos os que atingiram a fase final, como se prova pela lista que seguidamente se publica.\n1º ciclo. Altura: Clara Correia (turma M), Alice Ribeiro (turma M) e Inês Calvinho (turmas H); Castro Marim: Carlos, Carolina Gonçalves e Diana Baltazar.\n2º ciclo: Gonçalo Ramos (6ºA), e José Domingos e Vicente Fernandes (ambos do 6ºB).\n3º ciclo: Carlota Rufino (7º B), Lia Filipe (8º A) e Maria Fernandes (9º C).\nParabéns a todos.",
+      "excerpt": "Este ano o Concurso de Leitura do Baixo Guadiana não contou com nenhum vencedor proveniente do Agrupamento, mas nem por isso a participação dos nossos alunos foi menos meritória. Com efeito, foram muitos os que atingiram a fase final, como se prova pela lista que seguidamente se publica.1º ciclo. Altura: Clara Correia (turma M), Alice […]",
+      "body": "Este ano o Concurso de Leitura do Baixo Guadiana não contou com nenhum vencedor proveniente do Agrupamento, mas nem por isso a participação dos nossos alunos foi menos meritória.\n\nCom efeito, foram muitos os que atingiram a fase final, como se prova pela lista que seguidamente se publica.\n1º ciclo. Altura: Clara Correia (turma M), Alice Ribeiro (turma M) e Inês Calvinho (turmas H); Castro Marim: Carlos, Carolina Gonçalves e Diana Baltazar.\n2º ciclo: Gonçalo Ramos (6ºA), e José Domingos e Vicente Fernandes (ambos do 6ºB).\n3º ciclo: Carlota Rufino (7º B), Lia Filipe (8º A) e Maria Fernandes (9º C).\nParabéns a todos.",
       "link": "https://aectm.pt/2026/07/concurso-de-leitura-do-baixo-guadiana-2/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/07/Concurso-de-leitura-cartaz.jpeg",
+      "image": "/media/news/concurso-de-leitura-do-baixo-guadiana-2.jpeg",
       "author": "helder silva"
     },
     {
@@ -4133,10 +4179,10 @@
       "slug": "podcast06",
       "date": "2026-05-12",
       "title": "PODCAST#06",
-      "excerpt": "Já está no ar o sexto podcast da Rádio Escola de Castro Marim e desta feita o tema é o bem-estar digital. https://drive.google.com/file/d/1D7CIF_D8O2aIL9WvssktB_ETJvB7ow7c/viewa Este podcast foi produzido pela turma do 6ºC, sob orientação da professora Elisabete Teixeira. António Cavaleiro e Marta Mestre são os professores responsáveis pela Rádio Escola.\n",
-      "body": "Já está no ar o sexto podcast da Rádio Escola de Castro Marim e desta feita o tema é o bem-estar digital.\nhttps://drive.google.com/file/d/1D7CIF_D8O2aIL9WvssktB_ETJvB7ow7c/viewa\nEste podcast foi produzido pela turma do 6ºC, sob orientação da professora Elisabete Teixeira.\nAntónio Cavaleiro e Marta Mestre são os professores responsáveis pela Rádio Escola.",
+      "excerpt": "Já está no ar o sexto podcast da Rádio Escola de Castro Marim e desta feita o tema é o bem-estar digital. https://drive.google.com/file/d/1D7CIF_D8O2aIL9WvssktB_ETJvB7ow7c/viewa Este podcast foi produzido pela turma do 6ºC, sob orientação da professora Elisabete Teixeira. António Cavaleiro e Marta Mestre são os professores responsáveis pela Rádio Escola.",
+      "body": "Já está no ar o sexto podcast da Rádio Escola de Castro Marim e desta feita o tema é o bem-estar digital.\n\nhttps://drive.google.com/file/d/1D7CIF_D8O2aIL9WvssktB_ETJvB7ow7c/viewa\n\nEste podcast foi produzido pela turma do 6ºC, sob orientação da professora Elisabete Teixeira.\n\nAntónio Cavaleiro e Marta Mestre são os professores responsáveis pela Rádio Escola.",
       "link": "https://aectm.pt/2026/05/podcast06/",
-      "image": "https://aectm.pt/wp-content/uploads/2025/12/apple-podcasts__b2lbt81axo2u_og-e1765025546299.png",
+      "image": "/media/news/podcast06.png",
       "author": "Jose guedes"
     },
     {
@@ -4144,10 +4190,10 @@
       "slug": "intercambio-escolar-entre-portugal-e-espanha",
       "date": "2026-05-05",
       "title": "INTERCÂMBIO ESCOLAR ENTRE PORTUGAL E ESPANHA",
-      "excerpt": "No dia 30 de maio, no âmbito do projeto PEBIF, as turmas do 5.º B e 5.º C receberam, com grande entusiasmo, a visita de alunos de Ayamonte e Lepe. Ao longo da manhã realizaram-se diversas atividades, que permitiram dar a conhecer a nossa vila e promover a partilha entre todos.  A visita ao Revelim […]\n",
-      "body": "No dia 30 de maio, no âmbito do projeto PEBIF, as turmas do 5.º B e 5.º C receberam, com grande entusiasmo, a visita de alunos de Ayamonte e Lepe.\nAo longo da manhã realizaram-se diversas atividades, que permitiram dar a conhecer a nossa vila e promover a partilha entre todos.\nA visita ao Revelim de Santo António, dirigida por Pedro Pires, técnico de património cultural da Câmara Municipal de Castro Marim, proporcionou um olhar sobre a história local e sobre os laços históricos partilhados entre Castro Marim e Ayamonte, através da vista privilegiada sobre a região.\nNa Casa do Sal, os alunos participaram na atividade Caça ao Quadro, dinamizada a partir da exposição do artista local, José Mário Carolino.\nJá na Escola Básica de Castro Marim, os alunos assistiram a curtas-metragens, participaram em jogos tradicionais no exterior, bem como naqueles que os esperavam na biblioteca escolar. Puderam assim comparar tradições entre os kids países vizinhos.\nO encontro terminou com alunos e professores a receberem as lembranças gentilmente oferecidas pela Junta de Freguesia e pelos Ayuntamientos de Lepe e Ayamonte.\nFoi uma manhã produtiva e entusiasmaste, marcada pela partilha, pelo convívio, pela aprendizagem e pela descoberta de culturas.\nScreenshot",
+      "excerpt": "No dia 30 de maio, no âmbito do projeto PEBIF, as turmas do 5.º B e 5.º C receberam, com grande entusiasmo, a visita de alunos de Ayamonte e Lepe. Ao longo da manhã realizaram-se diversas atividades, que permitiram dar a conhecer a nossa vila e promover a partilha entre todos.  A visita ao Revelim […]",
+      "body": "No dia 30 de maio, no âmbito do projeto PEBIF, as turmas do 5.º B e 5.º C receberam, com grande entusiasmo, a visita de alunos de Ayamonte e Lepe.\n\nAo longo da manhã realizaram-se diversas atividades, que permitiram dar a conhecer a nossa vila e promover a partilha entre todos. \n\nA visita ao Revelim de Santo António, dirigida por Pedro Pires, técnico de património cultural da Câmara Municipal de Castro Marim, proporcionou um olhar sobre a história local e sobre os laços históricos partilhados entre Castro Marim e Ayamonte, através da vista privilegiada sobre a região. \n\nNa Casa do Sal, os alunos participaram na atividade Caça ao Quadro, dinamizada a partir da exposição do artista local, José Mário Carolino. \n\nJá na Escola Básica de Castro Marim, os alunos assistiram a curtas-metragens, participaram em jogos tradicionais no exterior, bem como naqueles que os esperavam na biblioteca escolar. Puderam assim comparar tradições entre os kids países vizinhos.\n\nO encontro terminou com alunos e professores a receberem as lembranças gentilmente oferecidas pela Junta de Freguesia e pelos Ayuntamientos de Lepe e Ayamonte.\n\nFoi uma manhã produtiva e entusiasmaste, marcada pela partilha, pelo convívio, pela aprendizagem e pela descoberta de culturas.\n\nScreenshot",
       "link": "https://aectm.pt/2026/05/intercambio-escolar-entre-portugal-e-espanha/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/05/IMG_9722-scaled-e1777978431295.jpeg",
+      "image": "/media/news/intercambio-escolar-entre-portugal-e-espanha.jpeg",
       "author": "Jose guedes"
     },
     {
@@ -4156,9 +4202,9 @@
       "date": "2026-05-05",
       "title": "VISITA DE ESTUDO À BRENHOSA",
       "excerpt": "",
-      "body": "No dia 23 de abril os alunos do 6.º ano participaram numa visita de estudo à Brenhosa ,onde viveram um dia repleto de aprendizagens, diversão e convívio.\nDurante a visita tiveram a oportunidade de participar na confeção de pão, conhecendo de forma prática tradições e saberes ligados ao património local.\nO programa incluiu ainda várias atividades de lazer e aventura, entre as quais\nlaser tag,\ntiro com arco, jogos tradicionais e percursos por caminhos locais — um bom pretexto para aprenderem mais sobre a fauna, a flora e as características geográficas da região de uma forma lúdica e interativa.\nHouve também tempo para tomar um banho refrescante e para apanhar banhos de sol.\nA visita decorreu num ambiente muito positivo, com os alunos a demonstrarem alegria e entusiasmo ao longo de todo o dia.\nA Câmara Municipal cedeu o transporte.",
+      "body": "No dia 23 de abril os alunos do 6.º ano participaram numa visita de estudo à Brenhosa ,onde viveram um dia repleto de aprendizagens, diversão e convívio.\n\n \n\nDurante a visita tiveram a oportunidade de participar na confeção de pão, conhecendo de forma prática tradições e saberes ligados ao património local.\n\n \n\nO programa incluiu ainda várias atividades de lazer e aventura, entre as quais laser tag, tiro com arco, jogos tradicionais e percursos por caminhos locais — um bom pretexto para aprenderem mais sobre a fauna, a flora e as características geográficas da região de uma forma lúdica e interativa.\n\n \n\nHouve também tempo para tomar um banho refrescante e para apanhar banhos de sol.\n\n \n\nA visita decorreu num ambiente muito positivo, com os alunos a demonstrarem alegria e entusiasmo ao longo de todo o dia.\n\n \n\nA Câmara Municipal cedeu o transporte.",
       "link": "https://aectm.pt/2026/05/visita-de-estudo-a-brenhosa/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/05/IMG_20260423_123642-1-scaled-e1777976565308.jpeg",
+      "image": "/media/news/visita-de-estudo-a-brenhosa.jpeg",
       "author": "Jose guedes"
     },
     {
@@ -4166,10 +4212,10 @@
       "slug": "fabrica-das-historias",
       "date": "2026-05-05",
       "title": "FÁBRICA DAS HISTÓRIAS",
-      "excerpt": "As turmas do sexto ano compareceram no auditório no último dia 16 de abril para participarem na apresentação dos livros por si ilustrados no ano letivo anterior. A atividade, que recebeu o nome de Fábrica das Histórias, aconteceu em parceria com os utentes do Lar da Santa Casa de Misericórdia de Castro Marim (LSCMCM), mais […]\n",
-      "body": "As turmas do sexto ano compareceram no auditório no último dia 16 de abril para participarem na apresentação dos livros por si ilustrados no ano letivo anterior.\nA atividade, que recebeu o nome de Fábrica das Histórias, aconteceu em parceria com os utentes do Lar da Santa Casa de Misericórdia de Castro Marim (LSCMCM), mais concretamente aqueles que são portadores de perturbação neurocognitiva.\nForam justamente os utentes do Lar os autores das histórias que os nossos alunos depois profusamente ilustraram.\nEstiveram presentes na apresentação, entre outros, Cristina Lopes, professora responsável pela orientação dos jovens ilustradores, Iola Fernandes, na qualidade de diretora do LSCMCM, e Manuela Maurício, uma utente que leu uma história e interagiu com os alunos de forma emotiva, participando na distribuição dos livros aos jovens ilustradores..\nA publicação destes livros constituiu uma iniciativa de relevo e a sua apresentação foi, como seria de esperar, um daqueles momentos que deixam marca e perduram no tempo.\nOs livros podem ser adquiridos na Santa Casa da Misericórdia de Castro Marim.",
+      "excerpt": "As turmas do sexto ano compareceram no auditório no último dia 16 de abril para participarem na apresentação dos livros por si ilustrados no ano letivo anterior. A atividade, que recebeu o nome de Fábrica das Histórias, aconteceu em parceria com os utentes do Lar da Santa Casa de Misericórdia de Castro Marim (LSCMCM), mais […]",
+      "body": "As turmas do sexto ano compareceram no auditório no último dia 16 de abril para participarem na apresentação dos livros por si ilustrados no ano letivo anterior.\n\nA atividade, que recebeu o nome de Fábrica das Histórias, aconteceu em parceria com os utentes do Lar da Santa Casa de Misericórdia de Castro Marim (LSCMCM), mais concretamente aqueles que são portadores de perturbação neurocognitiva.\n\nForam justamente os utentes do Lar os autores das histórias que os nossos alunos depois profusamente ilustraram.\n\nEstiveram presentes na apresentação, entre outros, Cristina Lopes, professora responsável pela orientação dos jovens ilustradores, Iola Fernandes, na qualidade de diretora do LSCMCM, e Manuela Maurício, uma utente que leu uma história e interagiu com os alunos de forma emotiva, participando na distribuição dos livros aos jovens ilustradores..\n\nA publicação destes livros constituiu uma iniciativa de relevo e a sua apresentação foi, como seria de esperar, um daqueles momentos que deixam marca e perduram no tempo.\n\nOs livros podem ser adquiridos na Santa Casa da Misericórdia de Castro Marim.",
       "link": "https://aectm.pt/2026/05/fabrica-das-historias/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/04/IMG_6946-1-scaled-e1777479402816.jpeg",
+      "image": "/media/news/fabrica-das-historias.jpeg",
       "author": "Jose guedes"
     },
     {
@@ -4177,10 +4223,10 @@
       "slug": "todos-diferentes-todos-importantes",
       "date": "2026-04-30",
       "title": "TODOS DIFERENTES, TODOS IMPORTANTES",
-      "excerpt": "No dia 24 de abril, a educadora Raquel Horta dinamizou uma atividade de caráter lúdico-pedagógico com a sua turma do 2.º ano, intitulada Somos todos diferentes, todos importantes. A intervenção teve como objetivo geral a promoção da inclusão e do respeito pela diversidade no contexto do grupo-turma. Atividades como esta promovem a empatia e reforçam […]\n",
-      "body": "No dia 24 de abril, a educadora Raquel Horta dinamizou uma atividade de caráter lúdico-pedagógico com a sua turma do 2.º ano, intitulada\nSomos todos diferentes, todos importantes\n.\nA intervenção teve como objetivo geral a promoção da inclusão e do respeito pela diversidade no contexto do grupo-turma.\nAtividades como esta promovem a empatia e reforçam o sentimento de pertença, ao mesmo tempo que concorrem para enraizar valores tão fundamentais como o respeito, a tolerância e a inclusão.",
+      "excerpt": "No dia 24 de abril, a educadora Raquel Horta dinamizou uma atividade de caráter lúdico-pedagógico com a sua turma do 2.º ano, intitulada Somos todos diferentes, todos importantes. A intervenção teve como objetivo geral a promoção da inclusão e do respeito pela diversidade no contexto do grupo-turma. Atividades como esta promovem a empatia e reforçam […]",
+      "body": "No dia 24 de abril, a educadora Raquel Horta dinamizou uma atividade de caráter lúdico-pedagógico com a sua turma do 2.º ano, intitulada Somos todos diferentes, todos importantes.\n\nA intervenção teve como objetivo geral a promoção da inclusão e do respeito pela diversidade no contexto do grupo-turma.\n\nAtividades como esta promovem a empatia e reforçam o sentimento de pertença, ao mesmo tempo que concorrem para enraizar valores tão fundamentais como o respeito, a tolerância e a inclusão.",
       "link": "https://aectm.pt/2026/04/todos-diferentes-todos-importantes/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/04/IMG_0232-1.heic",
+      "image": "/media/news/todos-diferentes-todos-importantes.jpg",
       "author": "Jose guedes"
     },
     {
@@ -4188,10 +4234,10 @@
       "slug": "monitorizacao-da-agua-na-ribeira-de-odeleite",
       "date": "2026-04-21",
       "title": "MONITORIZAÇÃO DA ÁGUA NA RIBEIRA DE ODELEITE",
-      "excerpt": "Os alunos das turmas B e C do 8.º ano e 9.º anos, respetivamente, procederem nos dias 16 e 17 de abril, à monitorização da qualidade da água da ribeira de Odeleite, a jusante, em Odeleite, e a montante, em Fortes. A atividade, que decorreu sob orientação dos Engenheiros Paula Vaz e Nuno Alves, da […]\n",
-      "body": "Os alunos das turmas B e C do 8.º ano e 9.º anos, respetivamente, procederem nos dias 16 e 17 de abril, à monitorização da qualidade da água da ribeira de Odeleite, a jusante, em Odeleite, e a montante, em Fortes.\nA atividade, que decorreu sob orientação dos Engenheiros Paula Vaz e Nuno Alves, da APA (Agência Portuguesa do Ambiente), permitiu aos alunos contribuir para a proteção dos recursos hídricos e dos ecossistemas, bem como avaliar a qualidade ecológica da massa de água da ribeira de Odeleite.\nUm agradecimento especial aos membros da APA, assim como aos estagiários Nicole Abreu e Rafael Machado, por se terem disponibilizado a partilhar o seu conhecimento com os alunos da nossa escola.",
+      "excerpt": "Os alunos das turmas B e C do 8.º ano e 9.º anos, respetivamente, procederem nos dias 16 e 17 de abril, à monitorização da qualidade da água da ribeira de Odeleite, a jusante, em Odeleite, e a montante, em Fortes. A atividade, que decorreu sob orientação dos Engenheiros Paula Vaz e Nuno Alves, da […]",
+      "body": "Os alunos das turmas B e C do 8.º ano e 9.º anos, respetivamente, procederem nos dias 16 e 17 de abril, à monitorização da qualidade da água da ribeira de Odeleite, a jusante, em Odeleite, e a montante, em Fortes.\n\nA atividade, que decorreu sob orientação dos Engenheiros Paula Vaz e Nuno Alves, da APA (Agência Portuguesa do Ambiente), permitiu aos alunos contribuir para a proteção dos recursos hídricos e dos ecossistemas, bem como avaliar a qualidade ecológica da massa de água da ribeira de Odeleite.\n\nUm agradecimento especial aos membros da APA, assim como aos estagiários Nicole Abreu e Rafael Machado, por se terem disponibilizado a partilhar o seu conhecimento com os alunos da nossa escola.",
       "link": "https://aectm.pt/2026/04/monitorizacao-da-agua-na-ribeira-de-odeleite/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/04/IMG_20260417_111220-1-scaled-e1776806545747.jpeg",
+      "image": "/media/news/monitorizacao-da-agua-na-ribeira-de-odeleite.jpeg",
       "author": "Jose guedes"
     },
     {
@@ -4199,10 +4245,10 @@
       "slug": "workshop-de-robotica",
       "date": "2026-04-21",
       "title": "WORKSHOP DE ROBÓTICA",
-      "excerpt": "No dia 15 de abril, os alunos que frequentam o Clube Ciência Viva na Escola participaram num workshop de robótica, no Centro de Ciência Viva de Tavira. Foi a oportunidade perfeita para exercitar a programação por blocos, bem como de melhorar as competências ao nível do pensamento computacional. Um agradecimento especial a todos quantos colaboraram […]\n",
-      "body": "No dia 15 de abril, os alunos que frequentam o Clube Ciência Viva na Escola participaram num workshop de robótica, no Centro de Ciência Viva de Tavira.\nFoi a oportunidade perfeita para exercitar a programação por blocos, bem como de melhorar as competências ao nível do pensamento computacional.\nUm agradecimento especial a todos quantos colaboraram na realização desta atividade.",
+      "excerpt": "No dia 15 de abril, os alunos que frequentam o Clube Ciência Viva na Escola participaram num workshop de robótica, no Centro de Ciência Viva de Tavira. Foi a oportunidade perfeita para exercitar a programação por blocos, bem como de melhorar as competências ao nível do pensamento computacional. Um agradecimento especial a todos quantos colaboraram […]",
+      "body": "No dia 15 de abril, os alunos que frequentam o Clube Ciência Viva na Escola participaram num workshop de robótica, no Centro de Ciência Viva de Tavira.\n\nFoi a oportunidade perfeita para exercitar a programação por blocos, bem como de melhorar as competências ao nível do pensamento computacional.\n\nUm agradecimento especial a todos quantos colaboraram na realização desta atividade.",
       "link": "https://aectm.pt/2026/04/workshop-de-robotica/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/04/IMG_20260415_155029-scaled-e1776804814881.jpeg",
+      "image": "/media/news/workshop-de-robotica.jpeg",
       "author": "Jose guedes"
     },
     {
@@ -4210,10 +4256,76 @@
       "slug": "o-segredo-das-ervas-marinhas",
       "date": "2026-04-21",
       "title": "O SEGREDO DAS ERVAS MARINHAS",
-      "excerpt": "Estreia e Emoção: “O Segredo das Ervas Marinhas” conquista a comunidade! Vivemos dias inesquecíveis no Agrupamento de Escolas de Castro Marim com a apresentação do filme de animação “O Segredo das Ervas Marinhas”, um projeto realizado por cerca de 90 alunos das turmas de 7.º e 8.º ano. A jornada começou no dia 24 de […]\n",
-      "body": "Estreia e Emoção: “O Segredo das Ervas Marinhas” conquista a comunidade!\nVivemos dias inesquecíveis no Agrupamento de Escolas de Castro Marim com a apresentação do filme de animação “O Segredo das Ervas Marinhas”, um projeto realizado por cerca de 90 alunos das turmas de 7.º e 8.º ano. A jornada começou no dia 24 de março, com uma antestreia exclusiva seguida de uma reunião de avaliação. Este momento contou com a participação da equipa pedagógica de professores, da artista residente Catarina Calvinho Gil, da direção do agrupamento e do Plano Nacional das Artes, representado pela sua coordenadora regional, Nádia Torres. Foi um espaço fundamental para refletir sobre o impacto desta residência artística, inserida na Bienal Cultura Educação sob o tema “E em Vez do Medo?” A grande estreia oficial decorreu no dia 26 de março, no primeiro dia dos Dias Culturais do Agrupamento. O evento foi uma verdadeira celebração e contou com a presença de todos os alunos envolvidos, de uma representação da Organização dos Estados Ibero-americanos (OEI) — entidade que financiou o projeto —, da direção do Museu Zer0, da Presidente da Câmara Municipal de Castro Marim e sua equipa das áreas da cultura e educação, e dos docentes que acompanharam as turmas.\nA apresentação foi conduzida pela artista Catarina Gil e por um grupo de alunos que expressaram, de coração, a sua experiência nas diversas fases do projeto. Os estudantes partilharam como adquiriram competências não só nas técnicas cinematográficas, como a animação 2D e a pintura com aguarela e acrílico, mas também competências relacionais e pessoais, como o trabalho em equipa. Tanto a antestreia como a estreia revestiram-se de grande qualidade e emocionaram profundamente a plateia. Ver o Sapal de Castro Marim e Vila Real de Santo António ganhar vida através do olhar dos nossos jovens é a prova de que a arte é uma ferramenta transformadora. Parabéns a todos os envolvidos por este “segredo” agora partilhado com o mundo!\nhttps://drive.google.com/file/d/1LDoaw15p3n0KVcZGYnNDgXj2yfu1iFED/view\n#OSegredoDasErvasMarinhas #CinemaDeAnimação #PlanoNacionalDasArtes #MuseuZer0 #AECastroMarim #EducaçãoPelaArte #CastroMarim #Sapal #OEI\n(Texto de Cristina Serote)",
+      "excerpt": "Estreia e Emoção: “O Segredo das Ervas Marinhas” conquista a comunidade! Vivemos dias inesquecíveis no Agrupamento de Escolas de Castro Marim com a apresentação do filme de animação “O Segredo das Ervas Marinhas”, um projeto realizado por cerca de 90 alunos das turmas de 7.º e 8.º ano. A jornada começou no dia 24 de […]",
+      "body": "Estreia e Emoção: “O Segredo das Ervas Marinhas” conquista a comunidade!\n\nVivemos dias inesquecíveis no Agrupamento de Escolas de Castro Marim com a apresentação do filme de animação “O Segredo das Ervas Marinhas”, um projeto realizado por cerca de 90 alunos das turmas de 7.º e 8.º ano. A jornada começou no dia 24 de março, com uma antestreia exclusiva seguida de uma reunião de avaliação. Este momento contou com a participação da equipa pedagógica de professores, da artista residente Catarina Calvinho Gil, da direção do agrupamento e do Plano Nacional das Artes, representado pela sua coordenadora regional, Nádia Torres. Foi um espaço fundamental para refletir sobre o impacto desta residência artística, inserida na Bienal Cultura Educação sob o tema “E em Vez do Medo?” A grande estreia oficial decorreu no dia 26 de março, no primeiro dia dos Dias Culturais do Agrupamento. O evento foi uma verdadeira celebração e contou com a presença de todos os alunos envolvidos, de uma representação da Organização dos Estados Ibero-americanos (OEI) — entidade que financiou o projeto —, da direção do Museu Zer0, da Presidente da Câmara Municipal de Castro Marim e sua equipa das áreas da cultura e educação, e dos docentes que acompanharam as turmas.\n\nA apresentação foi conduzida pela artista Catarina Gil e por um grupo de alunos que expressaram, de coração, a sua experiência nas diversas fases do projeto. Os estudantes partilharam como adquiriram competências não só nas técnicas cinematográficas, como a animação 2D e a pintura com aguarela e acrílico, mas também competências relacionais e pessoais, como o trabalho em equipa. Tanto a antestreia como a estreia revestiram-se de grande qualidade e emocionaram profundamente a plateia. Ver o Sapal de Castro Marim e Vila Real de Santo António ganhar vida através do olhar dos nossos jovens é a prova de que a arte é uma ferramenta transformadora. Parabéns a todos os envolvidos por este “segredo” agora partilhado com o mundo!\n\nhttps://drive.google.com/file/d/1LDoaw15p3n0KVcZGYnNDgXj2yfu1iFED/view\n\n#OSegredoDasErvasMarinhas #CinemaDeAnimação #PlanoNacionalDasArtes #MuseuZer0 #AECastroMarim #EducaçãoPelaArte #CastroMarim #Sapal #OEI\n\n(Texto de Cristina Serote)",
       "link": "https://aectm.pt/2026/04/o-segredo-das-ervas-marinhas/",
-      "image": "https://aectm.pt/wp-content/uploads/2026/04/Ervas-marinhas-aliadas-na-luta-contra-as-mudancas-climaticas-Bernadete-Alves.jpg-e1776768381871.webp",
+      "image": "/media/news/o-segredo-das-ervas-marinhas.webp",
+      "author": "Jose guedes"
+    },
+    {
+      "id": 10242,
+      "slug": "a-escola-foi-ao-cinema",
+      "date": "2026-04-21",
+      "title": "A ESCOLA FOI AO CINEMA",
+      "excerpt": "No dia 25 de março, os alunos do 1.º ciclo da Escola Básica 1 de Castro Marim e os alunos do 5.º, 6.º, 7.º e 8.º anos da Escola Básica de Castro Marim tiveram a oportunidade de assistir ao filme Calamity, de Rémi Chayé — uma obra inspiradora que celebra a coragem, a liberdade e […]",
+      "body": "No dia 25 de março, os alunos do 1.º ciclo da Escola Básica 1 de Castro Marim e os alunos do 5.º, 6.º, 7.º e 8.º anos da Escola Básica de Castro Marim tiveram a oportunidade de assistir ao filme Calamity, de Rémi Chayé — uma obra inspiradora que celebra a coragem, a liberdade e a determinação.\n\nEsta iniciativa só foi possível graças à Casa da Animação, que cedeu gentilmente o filme, e ao Cineclube de Faro e ao Festival Animagoria, que dinamizaram a atividade, representados pela incansável Catarina Gil, cuja presença e entusiasmo tornaram a experiência ainda mais especial.\n\nA sessão contou ainda com o apoio da Câmara Municipal de Castro Marim, que disponibilizou o auditório da Biblioteca Municipal.\n\nFoi um momento de cultura, descoberta e partilha, que enriqueceu o percurso educativo dos nossos alunos e reforçou a importância das parcerias que aproximam a arte das escolas.\n\nO nosso profundo agradecimento a todas as entidades envolvidas. Continuaremos a pugnar por que o cinema, a criatividade e o pensamento crítico façam parte do quotidiano das nossas crianças e jovens.",
+      "link": "https://aectm.pt/2026/04/a-escola-foi-ao-cinema/",
+      "image": "/media/news/a-escola-foi-ao-cinema.jpeg",
+      "author": "Jose guedes"
+    },
+    {
+      "id": 10234,
+      "slug": "aviso-de-greve-11",
+      "date": "2026-04-16",
+      "title": "AVISO DE GREVE",
+      "excerpt": "Informa-se a comunidade educativa de que amanhã, sexta-feira, dia 17 de abril, haverá uma paralisação dos trabalhadores da Administração Pública e de outros serviços do setor privado, na sequência de uma série de tomadas de posição contra a revisão da legislação laboral. Assim sendo, relembra-se os Encarregados de Educação de que, por questões de segurança, […]",
+      "body": "Informa-se a comunidade educativa de que amanhã, sexta-feira, dia 17 de abril, haverá uma paralisação dos trabalhadores da Administração Pública e de outros serviços do setor privado, na sequência de uma série de tomadas de posição contra a revisão da legislação laboral.\n\nAssim sendo, relembra-se os Encarregados de Educação de que, por questões de segurança, não devem deixar os seus educandos na escola, caso não seja possível garantir o funcionamento das aulas.\n\nO STAL (Sindicato Nacional dos Trabalhadores da Administração Local), a FNSTFPS (Federação Nacional dos Sindicatos dos Trabalhadores em Funções Públicas), a FESAT (Federação dos Sindicatos de Agricultura, Alimentação, Bebidas, Hotelaria e Turismo de Portugal) a FENPROF (Federação Nacional de Professores) e Cena-STE (Sindicato dos Trabalhadores de Espetáculos, do Audiovisual e dos Músicos) são as entidades que emitiram o pré-aviso de greve.",
+      "link": "https://aectm.pt/2026/04/aviso-de-greve-11/",
+      "image": "/media/news/aviso-de-greve-11.jpg",
+      "author": "Jose guedes"
+    },
+    {
+      "id": 10221,
+      "slug": "ainda-os-dias-culturais-ii",
+      "date": "2026-04-14",
+      "title": "AINDA OS DIAS CULTURAIS II",
+      "excerpt": "O Spelling Bee tornou-se já um dos momentos icónicos dos Dias Culturais e este ano não fugiu à regra. Cristina Felício e Paula Pereira foram, de novo, as professoras responsáveis por uma atividade que envolveu alunos do 9º C, na organização, e todas as turmas do segundo ciclo, como participantes. Publica-se seguidamente a lista dos alunos concorrentes. […]",
+      "body": "O Spelling Bee tornou-se já um dos momentos icónicos dos Dias Culturais e este ano não fugiu à regra. Cristina Felício e Paula Pereira foram, de novo, as professoras responsáveis por uma atividade que envolveu alunos do 9º C, na organização, e todas as turmas do segundo ciclo, como participantes.\n\nPublica-se seguidamente a lista dos alunos concorrentes.\n\nEm destaque, a foto dos vencedores: Da esquerda para a direita: Korie Matthews, 6º C, Gonçalo Pereira, 6º A, e Vicente Fernandes, 6º B, respetivamente, segunda, primeiro e terceiro classificados.\n\n5ºA\n\nNº 12 – Naiara Magalhães\n\nNº 11 – Miguel Batista\n\nNº 15 – Sara Melo\n\nNº 4 – Gustavo Marçal\n\nNº 13 – Rita Barros\n\n5ºB\n\nNº 11 – Lourenço Gonçalves\n\nNº 16 – Santiago Vera\n\nNº 19 – Yevhen Kalinichenko\n\nNº 17 – Tomás Afonso\n\nNº 2 – Carolina Neves\n\n5ºC\n\nNº 18 – Sara Gonçalves\n\nNº 1 – Ana Vaz\n\nNº 4 – India Couto\n\nNº 15 – Mykhailo RashKovan\n\nNº 12 – Margarida Cavaco\n\n6ºA\n\nNº3 – Caetano Costa\n\nNº 9 – Gonçalo Pereira\n\nNº 24 – Rodrigo Pinto\n\nNº 10 – Gonçalo Ramos\n\nNº 8 – Diogo Parra\n\n6ºB\n\nNº 14 – Maria Inês Pereira\n\nNº 21 – Vicente Fernandes\n\nNº 15 – Pedro Horta\n\nNº 2 – Bernardo Afonso\n\nNº 12 – Lésia Gisbert\n\n6ºC\n\nNº 5 – Inês Leal\n\nNº 16 – Naísa Matias\n\nNº 19 – Santiago Simões\n\nNº 7 – Korie Matthews\n\nNº 1 – Alice Mestre",
+      "link": "https://aectm.pt/2026/04/ainda-os-dias-culturais-ii/",
+      "image": "/media/news/ainda-os-dias-culturais-ii.jpeg",
+      "author": "Jose guedes"
+    },
+    {
+      "id": 10211,
+      "slug": "ainda-os-dias-culturais-i",
+      "date": "2026-04-14",
+      "title": "AINDA OS DIAS CULTURAIS I",
+      "excerpt": "Iniciado o último período, é tempo de, com mais serenidade, revisitar alguns dos momentos marcantes dos Dias Culturais 26. No presente caso, publicamos imagens de uma instalação artística que fez furor. Foi concebida pela professora Cristina Lopes, com o auxílio das turmas do segundo ciclo. Para melhor elucidação, publica-se igualmente a respetiva memória descritiva. Obra: […]",
+      "body": "Iniciado o último período, é tempo de, com mais serenidade, revisitar alguns dos momentos marcantes dos Dias Culturais 26. No presente caso, publicamos imagens de uma instalação artística que fez furor. Foi concebida pela professora Cristina Lopes, com o auxílio das turmas do segundo ciclo. Para melhor elucidação, publica-se igualmente a respetiva memória descritiva.\n\nObra: Instalação artística\n\nTécnica: Crochê; Fada do lar\n\nMateriais: fios de lã, serapilheira, arame, cola branca\n\nO presente projeto foi desenvolvido segundo a metodologia de projeto, tendo sido inicialmente proposto pelos alunos do Clube do Património, que definiram como objetivo a criação de uma instalação artística intitulada “Jardim das Emoções”.\n\nNuma fase inicial, a atividade seria desenvolvida apenas no âmbito deste clube; no entanto, devido ao interesse e potencial pedagógico da proposta, o projeto foi posteriormente alargado às turmas do 2.º ciclo, envolvendo alunos do 5.º e 6.º anos das turmas A, B e C.\n\nA partir do mote da criação da instalação artística, foram explorados diversos conteúdos curriculares nas disciplinas de Educação Visual e Educação Tecnológica, nomeadamente conceitos relacionados com a cor, a estrutura e o conceito de instalação artística enquanto linguagem da arte contemporânea. \n\nO trabalho permitiu aos alunos compreender e experimentar diferentes processos criativos, articulando a expressão artística com a reflexão sobre o espaço e a experiência sensorial.\n\nA instalação “Jardim das Emoções” inspira-se nas tradições culturais ligadas ao têxtil, reinterpretando-as através de uma abordagem contemporânea. \n\nNo espaço expositivo, do teto surge uma espécie de chuva de flores, que parece descer em direção ao solo. \n\nEm contacto com o chão, esta chuva simbólica dá origem a pequenos canteiros coloridos, de onde florescem múltiplas flores de diversas cores, formas e texturas.\n\nEstas flores representam metaforicamente a diversidade de emoções e estados de espírito que fazem parte da experiência humana, transformando o espaço num jardim simbólico onde a cor e a forma traduzem sentimentos e vivências. \n\nA composição final procura criar uma experiência visual imersiva, convidando o observador a refletir sobrea relação entre arte, natureza e emoção.\n\nEsta unidade de trabalho foi desenvolvida sob a responsabilidade dos docentes Cristina Lopes e Joaquim Correia, que orientaram os alunos ao longo de todo o processo criativo, promovendo a participação ativa, a experimentação artística e o trabalho colaborativo.",
+      "link": "https://aectm.pt/2026/04/ainda-os-dias-culturais-i/",
+      "image": "/media/news/ainda-os-dias-culturais-i.jpeg",
+      "author": "Jose guedes"
+    },
+    {
+      "id": 10199,
+      "slug": "matriculas-e-renovacao-de-matriculas-3",
+      "date": "2026-04-14",
+      "title": "MATRÍCULAS E RENOVAÇÃO DE MATRÍCULAS",
+      "excerpt": "Informações para os Encarregados de Educação (2026-2027) Mais informação: clique aqui",
+      "body": "Informações para os Encarregados de Educação (2026-2027)\n\nMais informação: clique aqui",
+      "link": "https://aectm.pt/2026/04/matriculas-e-renovacao-de-matriculas-3/",
+      "image": "/media/news/matriculas-e-renovacao-de-matriculas-3.jpg",
+      "author": "Natália Mascarenhas"
+    },
+    {
+      "id": 10177,
+      "slug": "dias-culturais-i",
+      "date": "2026-03-26",
+      "title": "DIAS CULTURAIS 26",
+      "excerpt": "Começaram hoje os Dias Culturais 2026, subordinados ao tema Construir Comunidade na Diversidade. Compreensivelmente, nas comunicações de abertura destacaram-se palavras como empatia, solidariedade, respeito e tolerância. E enfatizou-se a importância da escola como elemento agregador da comunidade, motor indispensável da formação de uma cidadania responsável e atuante. Elogiaram-se alunos, professores, funcionários e encarregados de educação. […]",
+      "body": "Começaram hoje os Dias Culturais 2026, subordinados ao tema Construir Comunidade na Diversidade.\n\nCompreensivelmente, nas comunicações de abertura destacaram-se palavras como empatia, solidariedade, respeito e tolerância.\n\nE enfatizou-se a importância da escola como elemento agregador da comunidade, motor indispensável da formação de uma cidadania responsável e atuante.\n\nElogiaram-se alunos, professores, funcionários e encarregados de educação.\n\nCumpriu-se, pois, a tradição. De uma forma talvez ritualizada que deixa por vezes a sensação de que tudo decorreria da mesma forma, por pior que fosse a realidade.\n\nE contudo, num silencioso anonimato, pequenos milagres aconteceram dentro de portas, persistem ainda em acontecer dentro de portas.\n\nComo o trabalho desenvolvido por Catarina Gil que, na sequência de uma residência artística, levou um grupo de 90 alunos de diversas turmas do terceiro ciclo a planearem, escreverem, desenharem, pintarem e animarem uma história que resultou num filme tocante de qualidade surpreendente.\n\nOu o trabalho levado a cabo pelo professor de artes Joaquim Correia, que culminou na exposição A Cor do Beijo, que pode ser apreciada na sala 3 e que explica o processo de criação de um livro tocante, escrito e pintado pelos alunos das turmas do 5º ano.\n\nNuvens de incerteza obscurecem o horizonte. E não apenas lá fora, em Portugal, na Europa, no mundo. \n\nMas hoje começaram os Dias Culturais.\n\nHoje é dia de acreditar. Contra o pessimismo, contra a dúvida, contra a descrença.\n\nHoje é dia de acreditar. Contra todas as evidências.",
+      "link": "https://aectm.pt/2026/03/dias-culturais-i/",
+      "image": "/media/news/dias-culturais-i.jpeg",
       "author": "Jose guedes"
     }
   ],
@@ -4238,8 +4350,8 @@
     "provas-e-exames": "Tests and Exams",
     "criterios-de-avaliacao": "Assessment Criteria 2025/2026",
     "manuais-escolares": "Textbooks 2026/2027",
-    "metas-curriculares": "Curriculum Goals",
-    "atividades-2020-2021": "Activities",
+    "metas-curriculares": "Essential learning",
+    "atividades-2020-2021": "Activities 2026/2027",
     "projeto-erasmus": "Erasmus+ Project",
     "atividades-extracurricular": "Extracurricular Activities / Clubs",
     "biblioteca-escolar-de-castro-marim": "Castro Marim School Library",
@@ -4251,7 +4363,8 @@
     "biblioteca-escolar": "School Library",
     "pna": "National Arts Plan (PNA)",
     "destaques": "Highlights",
-    "giae": "GIAE"
+    "giae": "GIAE",
+    "resultados-escolares-pautas-de-avaliacao": "School results / assessment boards"
   },
   "contact": {
     "address": "Av. Dr. José Afonso Gomes, Apt 62, 8950-275 Castro Marim",

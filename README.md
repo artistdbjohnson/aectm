@@ -1,12 +1,11 @@
 # AECTM — Agrupamento de Escolas de Castro Marim
 
-Factory restyle of [aectm.pt](https://aectm.pt/).
+Handoff rebuild of [aectm.pt](https://www.aectm.pt/).
 
-- **Craft:** Motionsites `aurora-onboard` (institutional welcome remap)
-- **Loader:** Motionsites quiet tonal + crest + thin progress (no WP blue bars)
-- **Axiom:** theme/locale chrome cluster · logo-collapse section sticky · news reading panel + intent density
-- **Locks:** PT default + EN twin · dark | light
-- **Stack:** Next.js · React · Tailwind · Framer Motion · Vercel
-- Built by [douglxss.com](https://www.douglxss.com/)
-
-See `docs/design-meeting.md`.
+- **Visual:** liquid-glass chrome on a scrolling blue/white gradient
+- **Locales:** PT default + EN twin, persisted
+- **Theme:** light-first with optional dark, persisted
+- **Content:** news, calendar 2026/2027, contacts and documents transplanted from the live WordPress site
+- **Brand:** interim crest at `public/brand/logo.svg` / `logo.png` (drop-in path for Lux)
+- **Stack:** Next.js · React · Tailwind · Vercel
+- Independent design study, not affiliated. Created by [dglxss](https://www.douglxss.com/)

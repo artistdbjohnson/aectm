@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { inter } from "@/lib/fonts";
+import { sans, serif } from "@/lib/fonts";
 import { Providers } from "@/components/Providers";
 import { Loader } from "@/components/Loader";
 import { Header } from "@/components/Header";
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   description: "Página do Agrupamento de Escolas de Castro Marim",
   icons: {
-    icon: "/brand/logo.png",
+    icon: "/brand/logo.svg",
     apple: "/brand/logo-180.png",
   },
 };
@@ -36,7 +36,7 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="pt-PT" className={inter.variable} suppressHydrationWarning>
+    <html lang="pt-PT" className={`${sans.variable} ${serif.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeBoot }} />
       </head>
