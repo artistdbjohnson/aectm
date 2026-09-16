@@ -73,7 +73,7 @@ export function Loader() {
             animate={{ opacity: 1, y: 0 }}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/brand/logo.svg" alt="" className="h-[76px] w-[76px]" />
+            <img src="/brand/logo.png" alt="" className="h-[76px] w-[76px] object-contain" />
             <div>
               <p className="font-display text-[30px] font-semibold tracking-tight text-ink">
                 AECTM

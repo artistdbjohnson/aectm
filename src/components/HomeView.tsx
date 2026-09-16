@@ -108,9 +108,9 @@ export function HomeView() {
             <div className="absolute inset-0 bg-gradient-to-br from-[#1454a0]/20 via-transparent to-[#0a2a5c]/35" />
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/brand/logo.svg"
+              src="/brand/logo.png"
               alt=""
-              className="absolute right-8 top-10 h-28 w-28 opacity-90"
+              className="absolute right-8 top-10 h-28 w-28 object-contain opacity-90"
             />
             <div className="absolute inset-x-0 bottom-0 p-7 sm:p-9">
               <p className="chrome-label">{c.siteName}</p>
