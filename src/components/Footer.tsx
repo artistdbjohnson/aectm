@@ -3,79 +3,68 @@
 import Link from "next/link";
 import { chrome, data } from "@/content/data";
 import { useLocale } from "@/content/locale";
+import { formatTel, telHref } from "@/lib/urls";
 
 export function Footer() {
   const { locale } = useLocale();
   const c = chrome(locale);
   return (
-    <footer className="mt-20 border-t border-line bg-surface">
-      <div className="mx-auto grid max-w-[1440px] gap-10 px-4 py-12 sm:px-6 lg:grid-cols-3 lg:px-10">
-        <div>
-          <p className="text-sm font-medium tracking-tight text-ink">
+    <footer className="mt-16 border-t border-line/80">
+      <div className="page-wrap grid gap-10 py-12 lg:grid-cols-3">
+        <div className="glass rounded-3xl p-6">
+          <p className="font-display text-lg font-semibold tracking-tight text-ink">
             {c.siteName}
           </p>
           <p className="mt-1 text-sm text-muted">{c.siteFull}</p>
           <p className="mt-4 text-sm leading-relaxed text-muted">
             {data.contact.address}
             <br />
-            Tel {data.contact.tel} · Fax {data.contact.fax}
+            <a className="text-ink underline-offset-2 hover:underline" href={telHref(data.contact.tel)}>
+              {c.telLabel} {formatTel(data.contact.tel)}
+            </a>
             <br />
-            <a
-              className="text-ink underline-offset-2 hover:underline"
-              href={`mailto:${data.contact.email}`}
-            >
+            {c.faxLabel} {formatTel(data.contact.fax)}
+            <br />
+            <a className="text-ink underline-offset-2 hover:underline" href={`mailto:${data.contact.email}`}>
               {data.contact.email}
             </a>
           </p>
         </div>
-        <div>
+        <div className="glass rounded-3xl p-6">
           <p className="chrome-label mb-3">{c.quickLinks}</p>
           <ul className="space-y-1.5 text-sm">
-            <li>
-              <Link className="text-muted hover:text-ink" href="/escolas-do-agrupamento">
-                {c.schools}
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted hover:text-ink" href="/documentos-orientadores">
-                {c.documents}
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted hover:text-ink" href="/noticias">
-                {c.news}
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted hover:text-ink" href="/projeto-erasmus">
-                Erasmus+
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted hover:text-ink" href="/contactos">
-                {c.contactTitle}
-              </Link>
-            </li>
-            <li>
-              <Link className="text-muted hover:text-ink" href="/politica-de-privacidade">
-                {locale === "pt" ? "Privacidade" : "Privacy"}
-              </Link>
-            </li>
+            {[
+              ["/escolas-do-agrupamento", c.schools],
+              ["/documentos", c.documents],
+              ["/noticias", c.news],
+              ["/calendario-escolar", c.calendar],
+              ["/projeto-erasmus", "Erasmus+"],
+              ["/contactos", c.contactTitle],
+              ["/politica-de-privacidade", locale === "pt" ? "Privacidade" : "Privacy"],
+            ].map(([href, label]) => (
+              <li key={href}>
+                <Link className="text-muted hover:text-ink" href={href}>
+                  {label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
-        <div>
+        <div className="glass rounded-3xl p-6">
           <p className="chrome-label mb-3">dglxss</p>
-          <p className="text-sm text-muted">
-            {locale === "pt" ? "Construído por" : "Built by"}{" "}
+          <p className="text-sm leading-relaxed text-muted">
+            {c.attribution}{" "}
             <a
-              className="font-medium text-ink underline-offset-2 hover:underline"
+              className="font-semibold text-ink underline-offset-2 hover:underline"
               href="https://www.douglxss.com/"
               target="_blank"
               rel="noreferrer"
             >
-              douglxss.com
+              dglxss
             </a>
+            .
           </p>
+          <p className="mt-3 text-[12px] leading-relaxed text-muted">{c.disclaimer}</p>
         </div>
       </div>
     </footer>

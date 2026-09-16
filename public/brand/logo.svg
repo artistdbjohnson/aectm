@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="AECTM">
+  <title>AECTM  Agrupamento de Escolas de Castro Marim</title>
+  <circle cx="256" cy="256" r="246" fill="#0A2A5C"/>
+  <circle cx="256" cy="256" r="220" fill="#ECF5FF"/>
+  <circle cx="256" cy="256" r="204" fill="none" stroke="#1454A0" stroke-width="10"/>
+  <path d="M256 86 L392 132 L392 268 C392 348 318 404 256 430 C194 404 120 348 120 268 L120 132 Z" fill="#0A2A5C"/>
+  <path d="M256 118 L360 156 L360 260 C360 324 304 368 256 388 C208 368 152 324 152 260 L152 156 Z" fill="#1454A0"/>
+  <path d="M168 248 L168 218 L188 198 L208 218 L208 248 L232 248 L232 206 L248 190 L264 206 L264 248 L288 248 L288 218 L308 198 L328 218 L328 248 L344 248 L344 270 L168 270 Z" fill="#FFFFFF"/>
+  <path d="M186 292 C210 282 232 300 256 292 C280 284 302 300 326 290" fill="none" stroke="#ECF5FF" stroke-width="8" stroke-linecap="round"/>
+  <rect x="248" y="308" width="16" height="16" transform="rotate(45 256 316)" fill="#C4A456"/>
+</svg>

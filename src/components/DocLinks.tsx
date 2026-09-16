@@ -2,44 +2,45 @@
 
 import { ExternalLink } from "lucide-react";
 import type { PageData } from "@/content/data";
+import { useLocale } from "@/content/locale";
+import { locText } from "@/content/translate";
+import { officialUrl } from "@/lib/urls";
 
 export function DocLinks({ page }: { page: PageData }) {
-  const docs = page.links.filter((l) => {
-    const h = l.href.toLowerCase();
-    return (
-      h.includes("wp-content") ||
-      h.endsWith(".pdf") ||
-      h.endsWith(".doc") ||
-      h.endsWith(".docx") ||
-      h.endsWith(".xls") ||
-      h.endsWith(".xlsx") ||
-      h.startsWith("http")
-    );
-  });
+  const { locale } = useLocale();
+  const docs = page.links.filter((l) => l.href);
   if (!docs.length) return null;
   const seen = new Set<string>();
   const unique = docs.filter((d) => {
-    if (seen.has(d.href)) return false;
-    seen.add(d.href);
+    const href = officialUrl(d.href);
+    if (seen.has(href)) return false;
+    seen.add(href);
     return true;
   });
   return (
     <div className="mt-10">
-      <p className="chrome-label mb-3">Links</p>
+      <p className="chrome-label mb-3">
+        {locale === "pt" ? "Ligações e ficheiros" : "Links and files"}
+      </p>
       <ul className="grid gap-2 sm:grid-cols-2">
-        {unique.slice(0, 40).map((d, i) => (
-          <li key={i}>
-            <a
-              href={d.href}
-              target="_blank"
-              rel="noreferrer"
-              className="card-duo flex items-center justify-between gap-3 px-4 py-3 text-sm font-semibold text-ink hover:text-brand"
-            >
-              <span className="line-clamp-2">{d.text || d.href}</span>
-              <ExternalLink size={14} className="shrink-0 opacity-50" />
-            </a>
-          </li>
-        ))}
+        {unique.slice(0, 48).map((d, i) => {
+          const href = officialUrl(d.href);
+          const label = locText(d.text || href, locale);
+          const internal = href.startsWith("/");
+          return (
+            <li key={i}>
+              <a
+                href={href}
+                target={internal ? undefined : "_blank"}
+                rel={internal ? undefined : "noreferrer"}
+                className="card-duo flex items-center justify-between gap-3 px-4 py-3 text-sm font-semibold text-ink"
+              >
+                <span className="line-clamp-2">{label}</span>
+                <ExternalLink size={14} className="shrink-0 opacity-50" />
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
