@@ -13,11 +13,11 @@ export function BrandMark({
     <Link href="/" className="flex items-center gap-3" aria-label={subtitle}>
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/brand/logo.svg"
+        src="/brand/logo.png"
         alt=""
         width={collapsed ? 36 : 48}
         height={collapsed ? 36 : 48}
-        className="shrink-0 drop-shadow-sm transition-[width,height] duration-300"
+        className="shrink-0 object-contain drop-shadow-sm transition-[width,height] duration-300"
       />
       <span className="leading-tight">
         <span className={`block font-display font-semibold tracking-tight text-ink ${collapsed ? "text-sm" : "text-base"}`}>

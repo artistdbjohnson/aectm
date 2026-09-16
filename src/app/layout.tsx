@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   description: "Página do Agrupamento de Escolas de Castro Marim",
   icons: {
-    icon: "/brand/logo.svg",
+    icon: [{ url: "/brand/logo.png", type: "image/png" }],
     apple: "/brand/logo-180.png",
   },
 };
