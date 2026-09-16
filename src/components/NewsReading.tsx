@@ -211,7 +211,7 @@ export function NewsGrid({ query = "" }: { query?: string }) {
   return (
     <motion.div
       layout
-      className={intent === "avisos" ? "grid gap-3 sm:grid-cols-2" : "grid gap-4 sm:grid-cols-2 lg:grid-cols-3"}
+      className={intent === "avisos" ? "grid gap-row sm:grid-cols-2" : "grid gap-4 sm:grid-cols-2 lg:grid-cols-3"}
     >
       {list.map((n) => (
         <NewsCard key={n.id} item={n} dense={intent === "avisos"} />

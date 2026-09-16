@@ -12,16 +12,16 @@ export function AudienceHub({ id }: { id: AudienceId }) {
   const hub = audiences[id];
   return (
     <article className="page-wrap py-10">
-      <p className="chrome-label mb-2">
+      <p className="chrome-label chrome-back">
         <Link href="/" className="hover:text-brand">{c.backHome}</Link>
       </p>
-      <div className="glass mb-6 rounded-[28px] p-6 sm:p-8">
+      <div className="glass mb-stack rounded-[28px]">
         <h1 className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">
           {hub.title[locale]}
         </h1>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">{hub.lede[locale]}</p>
       </div>
-      <ul className="grid gap-3 sm:grid-cols-2">
+      <ul className="grid gap-row sm:grid-cols-2">
         {hub.links.map((l) => (
           <li key={l.href}>
             {l.external ? (

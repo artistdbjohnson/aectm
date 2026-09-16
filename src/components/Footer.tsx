@@ -11,7 +11,7 @@ export function Footer() {
   return (
     <footer className="mt-16 border-t border-line/80">
       <div className="page-wrap grid gap-10 py-12 lg:grid-cols-3">
-        <div className="glass rounded-3xl p-6">
+        <div className="glass rounded-3xl">
           <p className="font-display text-lg font-semibold tracking-tight text-ink">
             {c.siteName}
           </p>
@@ -30,7 +30,7 @@ export function Footer() {
             </a>
           </p>
         </div>
-        <div className="glass rounded-3xl p-6">
+        <div className="glass rounded-3xl">
           <p className="chrome-label mb-3">{c.quickLinks}</p>
           <ul className="space-y-1.5 text-sm">
             {[
@@ -50,7 +50,7 @@ export function Footer() {
             ))}
           </ul>
         </div>
-        <div className="glass rounded-3xl p-6">
+        <div className="glass rounded-3xl">
           <p className="chrome-label mb-3">dglxss</p>
           <p className="text-sm leading-relaxed text-muted">
             {c.attribution}{" "}

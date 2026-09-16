@@ -15,6 +15,11 @@
   --color-line: var(--a-line);
   --color-nav: var(--a-nav);
   --color-danger: #c0392b;
+  --spacing-card: 1.75rem;
+  --spacing-card-top: 2.05rem;
+  --spacing-stack: 1.75rem;
+  --spacing-row: 0.75rem;
+  --spacing-back: 1.25rem;
 }
 
 :root,
@@ -32,6 +37,18 @@
     radial-gradient(800px 500px at 70% 88%, rgba(168, 206, 245, 0.55), transparent 55%),
     linear-gradient(180deg, #d7e8fb 0%, #f4f8ff 38%, #c9def6 72%, #eef5ff 100%);
   --a-loader-bg: #e8f2fc;
+  /* Light spacing pass — extra air, especially card top + back-link clearance */
+  --a-space-card-x: 1.75rem;      /* 28px; was p-6 24px */
+  --a-space-card-y: 1.75rem;
+  --a-space-card-top: 2.05rem;    /* 33px; was 24px */
+  --a-space-card-x-lg: 2.25rem;   /* 36px; was p-8 32px */
+  --a-space-card-y-lg: 2.25rem;
+  --a-space-card-top-lg: 2.4rem;  /* 38px; was 32px */
+  --a-space-stack: 1.75rem;       /* 28px; was mb-6 24px / space-y-4 16px */
+  --a-space-row: 0.75rem;         /* 12px; was gap-2 / space-y-2 8px */
+  --a-space-back: 1.25rem;        /* 20px; was mb-2 8px */
+  --a-space-row-pad-y: 1.05rem;   /* 17px; was py-3 12px / py-2 8px */
+  --a-space-row-pad-x: 1.25rem;   /* 20px; was px-4 16px / px-3 12px */
   color-scheme: light;
 }
 
@@ -97,6 +114,26 @@ body {
   -webkit-backdrop-filter: blur(22px) saturate(1.35);
 }
 
+/* Content glass: extra internal air, especially top. Media/hero shells opt out. */
+.glass:not(.glass-flush):not(.glass-hero):not(.overflow-hidden) {
+  padding: var(--a-space-card-top) var(--a-space-card-x) var(--a-space-card-y);
+}
+@media (min-width: 640px) {
+  .glass:not(.glass-flush):not(.glass-hero):not(.overflow-hidden) {
+    padding: var(--a-space-card-top-lg) var(--a-space-card-x-lg) var(--a-space-card-y-lg);
+  }
+}
+
+/* Hero already has generous padding — only a hair more on top */
+.glass-hero {
+  padding-top: calc(1.75rem + 0.3rem);
+}
+@media (min-width: 640px) {
+  .glass-hero {
+    padding-top: calc(2.5rem + 0.25rem);
+  }
+}
+
 .glass-strong {
   background: var(--a-glass-strong);
   border: 1px solid var(--a-line);
@@ -148,6 +185,60 @@ body {
 .card-duo:hover {
   transform: translateY(-2px);
   box-shadow: 0 16px 44px rgba(16, 52, 96, 0.14);
+}
+
+/* List-row tiles only — news media cards keep edge-to-edge images */
+.card-duo:not(.overflow-hidden) {
+  padding: var(--a-space-row-pad-y) var(--a-space-row-pad-x);
+}
+
+.stack-cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--a-space-stack);
+}
+
+.stack-rows {
+  display: flex;
+  flex-direction: column;
+  gap: var(--a-space-row);
+}
+
+.gap-row {
+  gap: var(--a-space-row);
+}
+
+.gap-stack {
+  gap: var(--a-space-stack);
+}
+
+.mb-stack {
+  margin-bottom: var(--a-space-stack);
+}
+
+.mt-stack {
+  margin-top: var(--a-space-stack);
+}
+
+/* Back to home / chrome-label back links — clearance before the first card */
+.chrome-back {
+  display: inline-block;
+  margin-bottom: var(--a-space-back);
+}
+
+/* When the back link sits inside a glass card, keep air under it too */
+.glass .chrome-back,
+.glass-strong .chrome-back {
+  padding-bottom: 0.35rem;
+}
+
+.list-row {
+  padding: var(--a-space-row-pad-y) var(--a-space-row-pad-x);
+}
+
+ul:has(> li .card-duo),
+ul:has(> li .list-row) {
+  gap: var(--a-space-row);
 }
 
 .prose-school p { margin-bottom: 0.85rem; line-height: 1.7; color: var(--a-ink); }

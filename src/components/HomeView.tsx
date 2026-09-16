@@ -45,9 +45,9 @@ export function HomeView() {
   return (
     <div>
       <section className="page-wrap pt-8 lg:pt-12">
-        <div className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr] lg:items-stretch">
+        <div className="grid gap-stack lg:grid-cols-[1.15fr_0.85fr] lg:items-stretch">
           <motion.div
-            className="glass flex flex-col justify-end rounded-[32px] p-7 sm:p-10 lg:min-h-[500px]"
+            className="glass glass-hero flex flex-col justify-end rounded-[32px] p-7 sm:p-10 lg:min-h-[500px]"
             variants={stagger}
             initial="hidden"
             animate="show"
@@ -64,7 +64,7 @@ export function HomeView() {
             <motion.p variants={rise} className="mt-4 max-w-md text-[15px] leading-relaxed text-muted">
               {c.tagline}
             </motion.p>
-            <motion.div variants={rise} className="mt-8 space-y-2.5">
+            <motion.div variants={rise} className="stack-rows mt-8">
               {phases.map((p, i) => (
                 <Link
                   key={p.href}
@@ -100,7 +100,7 @@ export function HomeView() {
           </motion.div>
 
           <motion.div
-            className="glass relative min-h-[340px] overflow-hidden rounded-[32px] lg:min-h-[500px]"
+            className="glass glass-flush relative min-h-[340px] overflow-hidden rounded-[32px] lg:min-h-[500px]"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.65 }}
@@ -133,7 +133,7 @@ export function HomeView() {
 
       <section className="page-wrap py-10" id="quick">
         <p className="chrome-label mb-4">{c.quickLinks}</p>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-row sm:grid-cols-2 lg:grid-cols-3">
           {[
             { href: "/pais", icon: Users, pt: "Pais e E.E.", en: "Parents & guardians" },
             { href: "/alunos", icon: GraduationCap, pt: "Alunos", en: "Students" },

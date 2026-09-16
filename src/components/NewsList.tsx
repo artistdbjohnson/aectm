@@ -12,7 +12,7 @@ export function NewsList() {
   const [q, setQ] = useState("");
   return (
     <div className="page-wrap py-10">
-      <div className="glass mb-8 rounded-[28px] p-6 sm:p-8">
+      <div className="glass mb-stack rounded-[28px]">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <p className="chrome-label mb-2">{c.highlights}</p>
@@ -40,7 +40,7 @@ export function NewsList() {
         </label>
       </div>
       <NewsGrid query={q} />
-      <p className="mt-10 text-sm text-muted">
+      <p className="chrome-back mt-10 text-sm text-muted">
         <Link href="/" className="hover:text-ink">
           ← {c.backHome}
         </Link>
